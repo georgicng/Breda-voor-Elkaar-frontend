@@ -1,0 +1,10 @@
+{
+  "name": "breda-voor-elkaar-frontend",
+  "version": "1.0.0",
+  "description": "Breda voor Elkaar front-end repository",
+  "main": "server.js",
+  "repository": "https://github.com/BytecodeBV/Breda-voor-Elkaar-frontend",
+  "author": "Bytecode Digital Agency B.V. <info@bytecode.nl>",
+  "license": "GPL-3.0",
+  "private": false
+}
