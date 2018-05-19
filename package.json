@@ -11,7 +11,8 @@
     "dev": "parcel src/index.html"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "tslint": "^5.10.0"
   },
   "devDependencies": {
     "animate.css": "^3.6.1",
@@ -35,6 +36,10 @@
     "postcss": "^6.0.22",
     "postcss-modules": "^1.1.0",
     "prettier": "^1.12.1",
+    "prettier-tslint": "^0.4.0",
+    "tslint-config-airbnb": "^5.8.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-react": "^3.6.0",
     "typescript": "^2.8.3"
   }
 }
