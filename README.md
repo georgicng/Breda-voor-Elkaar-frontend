@@ -10,6 +10,7 @@
 [![BCH compliance](https://bettercodehub.com/edge/badge/BytecodeBV/Breda-voor-Elkaar-frontend?branch=master)](https://bettercodehub.com/)
 [![bitHound Overall Score](https://www.bithound.io/github/BytecodeBV/Breda-voor-Elkaar-frontend/badges/score.svg)](https://www.bithound.io/github/BytecodeBV/Breda-voor-Elkaar-frontend)
 [![bitHound Code](https://www.bithound.io/github/BytecodeBV/Breda-voor-Elkaar-frontend/badges/code.svg)](https://www.bithound.io/github/BytecodeBV/Breda-voor-Elkaar-frontend)
+[![Maintainability](https://api.codeclimate.com/v1/badges/92653172e74b73d247e1/maintainability)](https://codeclimate.com/github/BytecodeBV/Breda-voor-Elkaar-frontend/maintainability)
 
 
 ## Requirements
