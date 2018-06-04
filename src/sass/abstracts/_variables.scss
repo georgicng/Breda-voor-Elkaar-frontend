@@ -2,7 +2,10 @@
 $red: #e30613;
 $blue: #00b5e2;
 $cyan: $blue;
-$gray: #424242;
+$gray-light: #999999;
+$gray-dark: #424242;
+$black: #000;
+$white: #fff;
 
 // Fonts
 $font-family-headings: Comfortaa, sans-serif;
@@ -198,7 +201,7 @@ $dropdown-header-color: $gray-600;
 
 // Navigation
 $nav-link-padding-y: .5rem;
-$nav-link-padding-x: 1rem;
+$nav-link-padding-x: 2rem;
 $nav-link-disabled-color: $gray-600;
 $nav-tabs-border-color: $gray-300;
 $nav-tabs-border-width: $border-width;
