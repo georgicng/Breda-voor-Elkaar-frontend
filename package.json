@@ -9,6 +9,7 @@
   "private": false,
   "scripts": {
     "dev": "parcel src/index.hbs --no-cache",
+    "dev:html": "parcel src/index.html",
     "build": "parcel build src/index.hbs --no-cache"
   },
   "dependencies": {
