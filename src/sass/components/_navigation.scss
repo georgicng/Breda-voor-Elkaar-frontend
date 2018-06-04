@@ -1,5 +1,9 @@
 .navbar {
-    padding: 20px 0;
+    padding: 20px 0 !important;
+}
+
+.nav-link {
+    color: $gray-navbar !important;
 }
 
 .nav-link--signup {
@@ -10,5 +14,5 @@
     background: $red;
     border-radius: 2px;
     color: $white !important;
-    padding: 8px 12px;
+    padding: 6px 24px !important;
 }

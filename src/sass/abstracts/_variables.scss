@@ -2,7 +2,8 @@
 $red: #e30613;
 $blue: #00b5e2;
 $cyan: $blue;
-$gray-light: #999999;
+$gray-light: #999;
+$gray-navbar: #555;
 $gray-dark: #424242;
 $black: #000;
 $white: #fff;
@@ -12,8 +13,64 @@ $font-family-headings: Comfortaa, sans-serif;
 $font-family-paragraphs: 'Lato', sans-serif;
 
 // ************************
-//   BOOTSTRAP OVERWRITES
+//   BOOTSTRAP OVERWRITES    // TODO: Clean this mess up
 // ************************
+
+// Bootstrap vars to make it compile
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+
+$grays: () !default;
+$grays: map-merge(
+    (
+        '100': $gray-100,
+        '200': $gray-200,
+        '300': $gray-300,
+        '400': $gray-400,
+        '500': $gray-500,
+        '600': $gray-600,
+        '700': $gray-700,
+        '800': $gray-800,
+        '900': $gray-900
+), $grays);
+
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+    (
+        'primary':    $primary,
+        'secondary':  $secondary,
+        'success':    $success,
+        'info':       $info,
+        'warning':    $warning,
+        'danger':     $danger,
+        'light':      $light,
+        'dark':       $dark
+), $theme-colors);
 
 // Colors
 $primary: $blue;
@@ -52,7 +109,7 @@ $body-color: $gray-900;
 $paragraph-margin-bottom: 1rem;
 
 // Links
-$link-color: theme-color('primary');
+$link-color: $primary;
 $link-decoration: none;
 $link-hover-color: darken($link-color, 15%);
 $link-hover-decoration: underline;
@@ -86,7 +143,7 @@ $box-shadow-sm: 0 .125rem .25rem rgba($black, .075);
 $box-shadow: 0 .5rem 1rem rgba($black, .15);
 $box-shadow-lg: 0 1rem 3rem rgba($black, .175);
 $component-active-color: $white;
-$component-active-bg: theme-color('primary');
+$component-active-bg: $primary;
 $caret-width: .3em;
 $transition-base: all .2s ease-in-out;
 $transition-fade: opacity .15s linear;
@@ -110,7 +167,7 @@ $h4-font-size: $font-size-base * 1.5;
 $h5-font-size: $font-size-base * 1.25;
 $h6-font-size: $font-size-base;
 $headings-margin-bottom: ($spacer / 2);
-$headings-font-family: $headings-font-family;
+$headings-font-family: $font-family-headings;
 $headings-font-weight: 500;
 $headings-line-height: 1.2;
 $headings-color: inherit;
@@ -171,7 +228,6 @@ $input-box-shadow: inset 0 1px 1px rgba($black, .075);
 $input-border-radius: $border-radius;
 $input-border-radius-lg: $border-radius-lg;
 $input-border-radius-sm: $border-radius-sm;
-$input-focus-bg: $input-bg;
 $input-focus-border-color: lighten($component-active-bg, 25%);
 $input-focus-color: $input-color;
 $input-focus-width: $input-btn-focus-width;
@@ -225,7 +281,7 @@ $navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) / 2;
 $navbar-toggler-padding-y: .25rem;
 $navbar-toggler-padding-x: .75rem;
 $navbar-toggler-font-size: $font-size-lg;
-$navbar-toggler-border-radius: $btn-border-radius;
+$navbar-toggler-border-radius: 2px;
 $navbar-dark-color: rgba($white, .5);
 $navbar-dark-hover-color: rgba($white, .75);
 $navbar-dark-active-color: $white;
