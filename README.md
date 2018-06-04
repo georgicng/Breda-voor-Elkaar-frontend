@@ -45,5 +45,3 @@ rm -rf dist && yarn run build
 
 This project is GPL-3.0 licenced.
 
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBytecodeBV%2FBreda-voor-Elkaar-frontend.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FBytecodeBV%2FBreda-voor-Elkaar-frontend?ref=badge_large)
