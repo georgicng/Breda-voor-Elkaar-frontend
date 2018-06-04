@@ -11,8 +11,6 @@ import 'bootstrap';
 import 'popper.js';
 import '../sass/style.scss';
 
-
-
 const test = (): void => {
     console.log('Typescript added'); // tslint:disable-line
 };
