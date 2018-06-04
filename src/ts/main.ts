@@ -7,7 +7,8 @@ declare global {
 
 import jquery from 'jquery';
 window.$ = window.jquery = jquery;
-import '../../node_modules/bootstrap/js/dist/index.js';
+import 'bootstrap';
+import 'popper.js';
 import '../sass/style.scss';
 
 
