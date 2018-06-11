@@ -1,0 +1,18 @@
+.navbar {
+    padding: 20px 0 !important;
+}
+
+.nav-link {
+    color: $gray-navbar !important;
+}
+
+.nav-link--signup {
+    color: $red !important;
+}
+
+.nav-link--login {
+    background: $red;
+    border-radius: 2px;
+    color: $white !important;
+    padding: 6px 24px !important;
+}
