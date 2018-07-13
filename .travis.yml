@@ -10,7 +10,7 @@ node_js:
 notifications:
   email:
     receipients:
-      - info@nooijensolutions.nl
+      - luciano@bytecode.nl
 
 # before_install:
 

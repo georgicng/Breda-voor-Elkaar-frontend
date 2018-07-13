@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "parcel src/index.hbs --no-cache",
     "dev:html": "parcel src/index.html",
-    "build": "parcel build src/index.hbs --no-cache"
+    "build": "parcel build src/ts/main.ts --out-dir build --no-cache"
   },
   "dependencies": {
     "express": "^4.16.3",
