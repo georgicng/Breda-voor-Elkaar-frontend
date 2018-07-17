@@ -8,11 +8,10 @@
 
     <!-- Bootstrap CSS -->
     <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous"-->
+    crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="css/fonts.css" -->
     <link rel="stylesheet" href="./sass/style.scss">
-    <!--link rel="stylesheet" href="css/style.css"-->
 
     <title>Vacancies - Mooiwerk</title>
 </head>
@@ -43,42 +42,40 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./vacancies.html">Vacaturebank
+                        <a class="nav-link" href="vacancies.html">Vacaturebank
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./vacancy.html">Vrijwilligersacedemie</a>
+                        <a class="nav-link" href="vacancy.html">Vrijwilligersacedemie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./blog.html">Advies</a>
+                        <a class="nav-link" href="blog.html">Advies</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                     <!--li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown04">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                      </li-->
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown04">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </li-->
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section>
+    <section class="bg-secondary mb-5">
         <div class="container">
-            <div class="jumbotron">
-                <div class="container">
-                    <h1 class="display-3">Vrijwilliger zijn?</h1>
-                    <p>Vind je vacature.</p>
-                    <div>
-                        <input name="s" placeholder="Zoek op trefwoord" />
-                        <button>search</button>
-                    </div>
+            <div class="d-flex flex-column justify-content-end py-5 mx-5">
+                <h1 class="display-3">Vrijwilliger zijn?</h1>
+                <p>Vind je vacature.</p>
+                <div class="d-flex">
+                    <input name="s" placeholder="Zoek op trefwoord" class="flex-grow-1" />
+                    <button class="btn btn-danger">search</button>
                 </div>
             </div>
         </div>
@@ -127,37 +124,37 @@
                         </section>
                         <section class="mb-4">
                             <h1 class="">Soort vrijwilligers</h1>
-                            <div>
-                                <input type="checkbox" name="soort-vrijwilligers" value="(huis)dieren"> (huis)dieren
-                                <span class="text-right">5</span>
-                                <div>
-                                    <div>
-                                        <input type="checkbox" name="soort-vrijwilligers" value="Activiteitenbegeleiding"> Activiteitenbegeleiding
+                            <div class="d-flex justify-content-between">
+                                    <label><input type="checkbox" name="soort-vrijwilligers" value="(huis)dieren"> (huis)dieren</label>
+                                    <span class="text-right">5</span>  
+                        </div>
+                                    <div class="d-flex justify-content-between">
+                                            <label><input type="checkbox" name="soort-vrijwilligers" value="Activiteitenbegeleiding"> Activiteitenbegeleiding</label>
                                         <span class="text-right">5</span>
                                     </div>
-                                    <div>
-                                        <input type="checkbox" name="soort-vrijwilligers" value="Administratie"> Administratie
+                                    <div class="d-flex justify-content-between">
+                                            <label><input type="checkbox" name="soort-vrijwilligers" value="Administratie"> Administratie</label>
                                         <span class="text-right">2</span>
                                     </div>
-                                    <div>
-                                        <input type="checkbox" name="soort-vrijwilligers" value="Bar & kantine"> Bar & kantinespan
+                                    <div class="d-flex justify-content-between">
+                                            <label><input type="checkbox" name="soort-vrijwilligers" value="Bar & kantine"> Bar & kantinespan</label>
                                         <span class="text-right">5</span>
                                     </div>
-                                    <div>
-                                        <input type="checkbox" name="soort-vrijwilligers" value="Bestuur & strategie"> Bestuur & strategie
+                                    <div class="d-flex justify-content-between">
+                                            <label><input type="checkbox" name="soort-vrijwilligers" value="Bestuur & strategie"> Bestuur & strategie</label>
                                         <span class="text-right">5</span>
                                     </div>
-                                    <div>
-                                        <input type="checkbox" name="soort-vrijwilligers" value="Boodschappen"> Boodschappen
+                                    <div class="d-flex justify-content-between">
+                                        <label><input type="checkbox" name="soort-vrijwilligers" value="Boodschappen"> Boodschappen</label>
                                         <span cclass="text-right">5</span>
                                     </div>
-                                    <div>
-                                        <input type="checkbox" name="soort-vrijwilligers" value="Collecte & fondsenwerving"> Collecte & fondsenwerving
+                                    <div class="d-flex justify-content-between">
+                                            <label><input type="checkbox" name="soort-vrijwilligers" value="Collecte & fondsenwerving"> Collecte & fondsenwerving</label>
                                         <span class="text-right">2</span>
                                     </div>
                         </section>
 
-                        <button class="btn btn-light">lees meer</button>
+                        <button class="btn text-primary">lees meer ></button>
                     </form>
 
                 </aside>
@@ -165,7 +162,7 @@
                     <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
                         <div class="row">
                             <div class="col-md-4 col-xs-12">
-                                <img src="//placehold.it/600x600" class="w-100">
+                                <img src="img/logo_v1.png" class="w-100">
                             </div>
                             <div class="col-md-8 col-xs-12">
                                 <div class="card-block">
@@ -177,7 +174,8 @@
                         <div class="row">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
                                 sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
-                                quam.</p>
+                                quam.
+                            </p>
                             <a>lees meer ›</a>
                             <p>2 weken geleden - Breda, Nederland</p>
                         </div>
@@ -185,7 +183,7 @@
                     <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
                         <div class="row">
                             <div class="col-md-4 col-xs-12">
-                                <img src="//placehold.it/600x600" class="w-100">
+                                <img src="img/logo_v2.png" class="w-100">
                             </div>
                             <div class="col-md-8 col-xs-12">
                                 <div class="card-block">
@@ -197,7 +195,8 @@
                         <div class="row">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
                                 sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
-                                quam.</p>
+                                quam.
+                            </p>
                             <a>lees meer ›</a>
                             <p>2 weken geleden - Breda, Nederland</p>
                         </div>
@@ -205,7 +204,7 @@
                     <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
                         <div class="row">
                             <div class="col-md-4 col-xs-12">
-                                <img src="//placehold.it/600x600" class="w-100">
+                                <img src="img/logo_v1.png" class="w-100">
                             </div>
                             <div class="col-md-8 col-xs-12">
                                 <div class="card-block">
@@ -217,7 +216,8 @@
                         <div class="row">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
                                 sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
-                                quam.</p>
+                                quam.
+                            </p>
                             <a>lees meer ›</a>
                             <p>2 weken geleden - Breda, Nederland</p>
                         </div>
@@ -225,7 +225,7 @@
                     <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
                         <div class="row">
                             <div class="col-md-4 col-xs-12">
-                                <img src="//placehold.it/600x600" class="w-100">
+                                <img src="img/logo_v2.png" class="w-100">
                             </div>
                             <div class="col-md-8 col-xs-12">
                                 <div class="card-block">
@@ -237,7 +237,8 @@
                         <div class="row">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
                                 sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
-                                quam.</p>
+                                quam.
+                            </p>
                             <a>lees meer ›</a>
                             <p>2 weken geleden - Breda, Nederland</p>
                         </div>
@@ -245,7 +246,7 @@
                     <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
                         <div class="row">
                             <div class="col-md-4 col-xs-12">
-                                <img src="//placehold.it/600x600" class="w-100">
+                                <img src="img/logo_v1.png" class="w-100">
                             </div>
                             <div class="col-md-8 col-xs-12">
                                 <div class="card-block">
@@ -257,7 +258,8 @@
                         <div class="row">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
                                 sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
-                                quam.</p>
+                                quam.
+                            </p>
                             <a>lees meer ›</a>
                             <p>2 weken geleden - Breda, Nederland</p>
                         </div>
@@ -265,7 +267,7 @@
                     <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
                         <div class="row">
                             <div class="col-md-4 col-xs-12">
-                                <img src="//placehold.it/600x600" class="w-100">
+                                <img src="img/logo_v2.png" class="w-100">
                             </div>
                             <div class="col-md-8 col-xs-12">
                                 <div class="card-block">
@@ -277,7 +279,8 @@
                         <div class="row">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
                                 sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
-                                quam.</p>
+                                quam.
+                            </p>
                             <a>lees meer ›</a>
                             <p>2 weken geleden - Breda, Nederland</p>
                         </div>
@@ -300,124 +303,126 @@
                 </div>
     </section>
     <footer class="mt-5 footer">
-        <div class="footer_top d-flex flex-row">
-          <div class="sign-up bg-dark text-light border-top d-flex flex-column justify-content-center align-items-start p-5">
-            <h3>Wil je op de hoogte blijven? </h3>
-            <p>Laat dan je e-mailadres achter om de meest recente vacatures, kandidaten en ander nieuws te ontvangen.</p>
-            <div class="form-group">
-              <input name="email" class="form-control" placeholder="ZJe e-mail adres" />
-              <button class="btn btn-danger">Aanmelden</button>
-            </div>
-          </div>
-          <div class="banner">
-            <img src="img/side.png">
-          </div>
-        </div>
-        <div class="footer_bottom mt-5">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="mb-5">
-                  <h5>Vacaturebank</h5>
-                  <nav class="col-md-3 d-flex flex-column">
-                    <a href="#">Curabitur</a>
-                    <a href="#">Malesuada</a>
-                    <a href="#">Ultrices enim</a>
-                    <a href="#">Sodales nunc</a>
-                    <a href="#">Interdum</a>
-                  </nav>
-                </div>
-                <div class="mb-5">
-                  <h5>Vrijwilligersacademie </h5>
-                  <nav class="col-md-3 d-flex flex-column">
-                    <a href="#">Curabitur</a>
-                    <a href="#">Malesuada</a>
-                    <a href="#">Ultrices enim</a>
-                    <a href="#">Sodales nunc</a>
-                    <a href="#">Interdum</a>
-                  </nav>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="mb-5">
-                  <h5>Advies</h5>
-                  <nav class="col-md-3 d-flex flex-column">
-                    <a href="#">Curabitur</a>
-                    <a href="#">Malesuada</a>
-                    <a href="#">Ultrices enim</a>
-                    <a href="#">Sodales nunc</a>
-                    <a href="#">Interdum</a>
-                  </nav>
-                </div>
-                <div class="mb-5">
-                  <h5>Aanmelden</h5>
-                  <nav class="col-md-3 d-flex flex-column">
-                    <a href="#">Curabitur</a>
-                    <a href="#">Malesuada</a>
-                    <a href="#">Ultrices enim</a>
-                    <a href="#">Sodales nunc</a>
-                    <a href="#">Interdum</a>
-                  </nav>
-                </div>
-              </div>
-              <div class="col-md-3 d-flex flex-column">
-                <img src="img/part1.png" class="mb-5">
-                <img src="img/part2.png" class="mb-5">
-                <img src="img/part3.png" class="mb-5">
-              </div>
-              <div class="col-md-3">
-                <div>
-                  <h5>MOOIWERK</h5>
-                  <p> Postadres
-                    <br>Postbus 5675, 4801 EB Breda</p>
-                  <p> Bezoekadres
-                    <br> Heerbaan 100, Breda</p>
-                  <p class="d-flex flex-column">
-                    <span>076 523 35 55</span>
-                    <span>info@mooiwerkbreda.nl</span>
-                    <span>www.mooiwerkbreda.nl</span>
-                  </p>
-                </div>
-                <div>MOOIWERK is een onderdeel van
-                  <br>
-                  <span>Stichting Breda Actief</span>
-                </div>
-                <div class="mt-2">
-                  <h5 class="mb-2">Volg ons via</h5>
-                  <nav>
-                    <a href="#" alt="Facebook icon">
-                      <img src="img/facebook.svg">
-                    </a>
-                    <a href="#" alt="Twitter icon">
-                      <img src="img/twitter.svg">
-                    </a>
-                    <a href="#" alt="Linkedin icon">
-                      <img src="img/linkedin.svg">
-                    </a>
-                    <a href="#" alt="Youtube icon">
-                      <img src="img/youtube.svg">
-                    </a>
-                  </nav>
-                </div>
-              </div>
-            </div>
-            <div class="text-center">© 2018 Mooi Werk - All rights reserved
-            </div>
-          </div>
-        </div>
-      </footer>
+            <footer class="mt-5 footer">
+                    <div class="footer_top d-flex flex-row">
+                        <div class="bg-dark text-light">
+                            <div class="sign-up d-flex flex-column justify-content-center align-items-start m-5">
+                            <h3>Wil je op de hoogte blijven? </h3>
+                            <p>Laat dan je e-mailadres achter om de meest recente vacatures, kandidaten en ander nieuws te ontvangen.</p>
+                            <div class="d-flex">
+                                <input name="email" class="form-control" placeholder="ZJe e-mail adres" />
+                                <button class="btn btn-danger">Aanmelden</button>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="banner">
+                            <img src="img/side.png">
+                        </div>
+                    </div>
+                    <div class="footer_bottom mt-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="mb-5">
+                                        <h5>Vacaturebank</h5>
+                                        <nav class="col-md-3 d-flex flex-column">
+                                            <a href="#">Curabitur</a>
+                                            <a href="#">Malesuada</a>
+                                            <a href="#">Ultrices enim</a>
+                                            <a href="#">Sodales nunc</a>
+                                            <a href="#">Interdum</a>
+                                        </nav>
+                                    </div>
+                                    <div class="mb-5">
+                                        <h5>Vrijwilligersacademie </h5>
+                                        <nav class="col-md-3 d-flex flex-column">
+                                            <a href="#">Curabitur</a>
+                                            <a href="#">Malesuada</a>
+                                            <a href="#">Ultrices enim</a>
+                                            <a href="#">Sodales nunc</a>
+                                            <a href="#">Interdum</a>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-5">
+                                        <h5>Advies</h5>
+                                        <nav class="col-md-3 d-flex flex-column">
+                                            <a href="#">Curabitur</a>
+                                            <a href="#">Malesuada</a>
+                                            <a href="#">Ultrices enim</a>
+                                            <a href="#">Sodales nunc</a>
+                                            <a href="#">Interdum</a>
+                                        </nav>
+                                    </div>
+                                    <div class="mb-5">
+                                        <h5>Aanmelden</h5>
+                                        <nav class="col-md-3 d-flex flex-column">
+                                            <a href="#">Curabitur</a>
+                                            <a href="#">Malesuada</a>
+                                            <a href="#">Ultrices enim</a>
+                                            <a href="#">Sodales nunc</a>
+                                            <a href="#">Interdum</a>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 d-flex flex-column">
+                                    <img src="img/part1.png" class="mb-5">
+                                    <img src="img/part2.png" class="mb-5">
+                                    <img src="img/part3.png" class="mb-5">
+                                </div>
+                                <div class="col-md-3">
+                                    <div>
+                                        <h5>MOOIWERK</h5>
+                                        <p> Postadres
+                                            <br>Postbus 5675, 4801 EB Breda</p>
+                                        <p> Bezoekadres
+                                            <br> Heerbaan 100, Breda</p>
+                                        <p class="d-flex flex-column">
+                                            <span>076 523 35 55</span>
+                                            <span>info@mooiwerkbreda.nl</span>
+                                            <span>www.mooiwerkbreda.nl</span>
+                                        </p>
+                                    </div>
+                                    <div>MOOIWERK is een onderdeel van
+                                        <br>
+                                        <span>Stichting Breda Actief</span>
+                                    </div>
+                                    <div class="mt-2">
+                                        <h5 class="mb-2">Volg ons via</h5>
+                                        <nav>
+                                            <a href="#" alt="Facebook icon">
+                                                <img src="img/facebook.svg">
+                                            </a>
+                                            <a href="#" alt="Twitter icon">
+                                                <img src="img/twitter.svg">
+                                            </a>
+                                            <a href="#" alt="Linkedin icon">
+                                                <img src="img/linkedin.svg">
+                                            </a>
+                                            <a href="#" alt="Youtube icon">
+                                                <img src="img/youtube.svg">
+                                            </a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">© 2018 Mooi Werk - All rights reserved
+                            </div>
+                        </div>
+                    </div>
+                </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script-->
-        <script src="ts/main.ts"></script>
+    <script src="ts/main.ts"></script>
 </body>
 
 </html>
