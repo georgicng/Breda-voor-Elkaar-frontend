@@ -2,421 +2,422 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <!--link rel="stylesheet" href="css/style.css"-->
+    <!-- Bootstrap CSS -->
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <title>Home!</title>
+    <link rel="stylesheet" href="./sass/style.scss">
+    <!--link rel="stylesheet" href="css/style.css"-->
+
+    <title>Vacancies - Mooiwerk</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="row ">
-        <div class="top-bar offset-sm-8 col-sm-4">
-          <div class="row">
-            <div class="col-sm-6">
-              <img src="img/search.svg" alt="Search Icon"> Zoeken
+    <header class="header bg-dark text-light">
+        <div class="container">
+            <div class="top-bar d-flex justify-content-end">
+                <div class="w-25">
+                    <img src="img/search.svg" alt="Search Icon"> Zoeken
+                </div>
+                <div class="pr-2 pl-2">
+                    Inloggen
+                </div>
             </div>
-            <div class="col-sm-6">
-              Inloggen
-            </div>
-          </div>
         </div>
-      </div>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">
-          <img src="img/logo.svg" alt="Mmooiwerk">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    </header>
+    <nav class="navbar navbar-expand-md navbar-light text-dark bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="img/logo.svg" alt="Mooiwerk">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="vacancies.html">Vacaturebank
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Vrijwilligersacedemie</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Advies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <!--li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown04">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./vacancies.html">Vacaturebank
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./vacancy.html">Vrijwilligersacedemie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Advies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <!--li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown04">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="display-3">Vrijwilliger zijn?</h1>
+                    <p>Vind je vacature.</p>
+                    <div>
+                        <input name="s" placeholder="Zoek op trefwoord" />
+                        <button>search</button>
                     </div>
-                  </li-->
-          </ul>
+                </div>
+            </div>
         </div>
-      </nav>
-    </div>
-  </header>
-  <section>
-    <div class="container">
-      <div class="jumbotron">
+    </section>
+    <section>
         <div class="container">
-          <h1 class="display-3">Vrijwilliger zijn?</h1>
-          <p>Vind je vacature.</p>
-          <div>
-            <input name="s" placeholder="Zoek op trefwoord" />
-            <button>search</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row">
-        <aside class="col-md-4 p-4">
-          <form>
-            <section class="mb-4">
-              <h1 class="">Datum gepost</h1>
-              <input type="radio" name="datum-gepost" value="Laatste uur"> Laatste uur
-              <br>
-              <input type="radio" name="datum" value="Laatste 24 uur"> Laatste 24 uur
-              <br>
-              <input type="radio" name="datum" value="Laatste 7 dagen"> Laatste 7 dagen
-              <br>
-              <input type="radio" name="datum" value="Laatste 14 dagen"> Laatste 14 dagen
-              <br>
-              <input type="radio" name="datum" value="Laatste 30 dagen"> Laatste 30 dagen
-              <br>
-              <input type="radio" name="datum" value="Allemaal" checked> Allemaal
-              <br>
-            </section>
-            <section class="mb-4">
-              <h1 class="">Hoe vaak</h1>
-              <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  Eenmalig
-                  <span class="badge badge-primary badge-pill">5</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  Regelmatig
-                  <span class="badge badge-primary badge-pill">5</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  Soms
-                  <span class="badge badge-primary badge-pill">2</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  Structureel
-                  <span class="badge badge-primary badge-pill">5</span>
-                </li>
-              </ul>
+            <div class="row">
+                <aside class="col-md-4 p-4">
+                    <form>
+                        <section class="mb-4">
+                            <h1 class="">Datum gepost</h1>
+                            <input type="radio" name="datum-gepost" value="Laatste uur"> Laatste uur
+                            <br>
+                            <input type="radio" name="datum" value="Laatste 24 uur"> Laatste 24 uur
+                            <br>
+                            <input type="radio" name="datum" value="Laatste 7 dagen"> Laatste 7 dagen
+                            <br>
+                            <input type="radio" name="datum" value="Laatste 14 dagen"> Laatste 14 dagen
+                            <br>
+                            <input type="radio" name="datum" value="Laatste 30 dagen"> Laatste 30 dagen
+                            <br>
+                            <input type="radio" name="datum" value="Allemaal" checked> Allemaal
+                            <br>
+                        </section>
+                        <section class="mb-4">
+                            <h1 class="">Hoe vaak</h1>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Eenmalig
+                                    <span class="badge badge-primary badge-pill">5</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Regelmatig
+                                    <span class="badge badge-primary badge-pill">5</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Soms
+                                    <span class="badge badge-primary badge-pill">2</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Structureel
+                                    <span class="badge badge-primary badge-pill">5</span>
+                                </li>
+                            </ul>
 
-            </section>
-            <section class="mb-4">
-              <h1 class="">Soort vrijwilligers</h1>
-              <div>
-                <input type="checkbox" name="soort-vrijwilligers" value="(huis)dieren"> (huis)dieren
-                <span class="text-right">5</span>
-              <div>
-              <div>
-                <input type="checkbox" name="soort-vrijwilligers" value="Activiteitenbegeleiding"> Activiteitenbegeleiding
-                <span class="text-right">5</span>
-              </div>
-              <div>
-                <input type="checkbox" name="soort-vrijwilligers" value="Administratie"> Administratie
-                <span class="text-right">2</span>
-              </div>
-              <div>
-                <input type="checkbox" name="soort-vrijwilligers" value="Bar & kantine"> Bar & kantinespan
-                <span class="text-right">5</span>
-              </div>
-              <div>
-                <input type="checkbox" name="soort-vrijwilligers" value="Bestuur & strategie"> Bestuur & strategie
-                <span class="text-right">5</span>
-              </div>
-              <div>
-                <input type="checkbox" name="soort-vrijwilligers" value="Boodschappen"> Boodschappen
-                <span cclass="text-right">5</span>
-              </div>
-              <div>
-                <input type="checkbox" name="soort-vrijwilligers" value="Collecte & fondsenwerving"> Collecte & fondsenwerving
-                <span class="text-right">2</span>
-              </div>
-            </section>
+                        </section>
+                        <section class="mb-4">
+                            <h1 class="">Soort vrijwilligers</h1>
+                            <div>
+                                <input type="checkbox" name="soort-vrijwilligers" value="(huis)dieren"> (huis)dieren
+                                <span class="text-right">5</span>
+                                <div>
+                                    <div>
+                                        <input type="checkbox" name="soort-vrijwilligers" value="Activiteitenbegeleiding"> Activiteitenbegeleiding
+                                        <span class="text-right">5</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="soort-vrijwilligers" value="Administratie"> Administratie
+                                        <span class="text-right">2</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="soort-vrijwilligers" value="Bar & kantine"> Bar & kantinespan
+                                        <span class="text-right">5</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="soort-vrijwilligers" value="Bestuur & strategie"> Bestuur & strategie
+                                        <span class="text-right">5</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="soort-vrijwilligers" value="Boodschappen"> Boodschappen
+                                        <span cclass="text-right">5</span>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="soort-vrijwilligers" value="Collecte & fondsenwerving"> Collecte & fondsenwerving
+                                        <span class="text-right">2</span>
+                                    </div>
+                        </section>
 
-            <button class="btn btn-light">lees meer</button>
-          </form>
+                        <button class="btn btn-light">lees meer</button>
+                    </form>
 
-        </aside>
-        <main class="col-md-8">
-          <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
-            <div class="row">
-              <div class="col-md-4 col-xs-12">
-                <img src="img/" class="w-100">
-              </div>
-              <div class="col-md-8 col-xs-12">
-                <div class="card-block">
-                  <h4 class="card-title">Vrijwillig consulent GGZ en Vriendendienst</h4>
-                  <h6 class="card-subtitle">Coördineren & regelen</h6>
+                </aside>
+                <main class="col-md-8">
+                    <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12">
+                                <img src="//placehold.it/600x600" class="w-100">
+                            </div>
+                            <div class="col-md-8 col-xs-12">
+                                <div class="card-block">
+                                    <h4 class="card-title">Vrijwillig consulent GGZ en Vriendendienst</h4>
+                                    <h6 class="card-subtitle">Coördineren & regelen</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                quam.</p>
+                            <a>lees meer ›</a>
+                            <p>2 weken geleden - Breda, Nederland</p>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12">
+                                <img src="//placehold.it/600x600" class="w-100">
+                            </div>
+                            <div class="col-md-8 col-xs-12">
+                                <div class="card-block">
+                                    <h4 class="card-title">Landelijke luisterlijn Breda zoekt chat- en telefoonvrijwilligers</h4>
+                                    <h6 class="card-subtitle">Coördineren & regelen</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                quam.</p>
+                            <a>lees meer ›</a>
+                            <p>2 weken geleden - Breda, Nederland</p>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12">
+                                <img src="//placehold.it/600x600" class="w-100">
+                            </div>
+                            <div class="col-md-8 col-xs-12">
+                                <div class="card-block">
+                                    <h4 class="card-title">Vrijwillig consulent GGZ en Vriendendienst</h4>
+                                    <h6 class="card-subtitle">Coördineren & regelen</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                quam.</p>
+                            <a>lees meer ›</a>
+                            <p>2 weken geleden - Breda, Nederland</p>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12">
+                                <img src="//placehold.it/600x600" class="w-100">
+                            </div>
+                            <div class="col-md-8 col-xs-12">
+                                <div class="card-block">
+                                    <h4 class="card-title">Landelijke luisterlijn Breda zoekt chat- en telefoonvrijwilligers</h4>
+                                    <h6 class="card-subtitle">Coördineren & regelen</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                quam.</p>
+                            <a>lees meer ›</a>
+                            <p>2 weken geleden - Breda, Nederland</p>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12">
+                                <img src="//placehold.it/600x600" class="w-100">
+                            </div>
+                            <div class="col-md-8 col-xs-12">
+                                <div class="card-block">
+                                    <h4 class="card-title">Vrijwillig consulent GGZ en Vriendendienst</h4>
+                                    <h6 class="card-subtitle">Coördineren & regelen</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                quam.</p>
+                            <a>lees meer ›</a>
+                            <p>2 weken geleden - Breda, Nederland</p>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12">
+                                <img src="//placehold.it/600x600" class="w-100">
+                            </div>
+                            <div class="col-md-8 col-xs-12">
+                                <div class="card-block">
+                                    <h4 class="card-title">Landelijke luisterlijn Breda zoekt chat- en telefoonvrijwilligers</h4>
+                                    <h6 class="card-subtitle">Coördineren & regelen</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                quam.</p>
+                            <a>lees meer ›</a>
+                            <p>2 weken geleden - Breda, Nederland</p>
+                        </div>
+                    </div>
+                    <nav aria-label="...">
+                        <ul class="pagination pagination-sm">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">3</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </main>
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus sed, sollicitudin
-                et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada quam.</p>
-              <a>lees meer ›</a>
-              <p>2 weken geleden - Breda, Nederland</p>
-            </div>
-          </div>
-          <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
-            <div class="row">
-              <div class="col-md-4 col-xs-12">
-                <img src="img/" class="w-100">
-              </div>
-              <div class="col-md-8 col-xs-12">
-                <div class="card-block">
-                  <h4 class="card-title">Landelijke luisterlijn Breda zoekt chat- en telefoonvrijwilligers</h4>
-                  <h6 class="card-subtitle">Coördineren & regelen</h6>
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus sed, sollicitudin
-                et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada quam.</p>
-              <a>lees meer ›</a>
-              <p>2 weken geleden - Breda, Nederland</p>
-            </div>
-          </div>
-          <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
-            <div class="row">
-              <div class="col-md-4 col-xs-12">
-                <img src="img/" class="w-100">
-              </div>
-              <div class="col-md-8 col-xs-12">
-                <div class="card-block">
-                  <h4 class="card-title">Vrijwillig consulent GGZ en Vriendendienst</h4>
-                  <h6 class="card-subtitle">Coördineren & regelen</h6>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus sed, sollicitudin
-                et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada quam.</p>
-              <a>lees meer ›</a>
-              <p>2 weken geleden - Breda, Nederland</p>
-            </div>
-          </div>
-          <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
-            <div class="row">
-              <div class="col-md-4 col-xs-12">
-                <img src="img/" class="w-100">
-              </div>
-              <div class="col-md-8 col-xs-12">
-                <div class="card-block">
-                  <h4 class="card-title">Landelijke luisterlijn Breda zoekt chat- en telefoonvrijwilligers</h4>
-                  <h6 class="card-subtitle">Coördineren & regelen</h6>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus sed, sollicitudin
-                et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada quam.</p>
-              <a>lees meer ›</a>
-              <p>2 weken geleden - Breda, Nederland</p>
-            </div>
-          </div>
-          <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
-            <div class="row">
-              <div class="col-md-4 col-xs-12">
-                <img src="img/" class="w-100">
-              </div>
-              <div class="col-md-8 col-xs-12">
-                <div class="card-block">
-                  <h4 class="card-title">Vrijwillig consulent GGZ en Vriendendienst</h4>
-                  <h6 class="card-subtitle">Coördineren & regelen</h6>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus sed, sollicitudin
-                et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada quam.</p>
-              <a>lees meer ›</a>
-              <p>2 weken geleden - Breda, Nederland</p>
-            </div>
-          </div>
-          <div class="card shadow mb-5 p-4 bg-light text-dark border-light">
-            <div class="row">
-              <div class="col-md-4 col-xs-12">
-                <img src="img/" class="w-100">
-              </div>
-              <div class="col-md-8 col-xs-12">
-                <div class="card-block">
-                  <h4 class="card-title">Landelijke luisterlijn Breda zoekt chat- en telefoonvrijwilligers</h4>
-                  <h6 class="card-subtitle">Coördineren & regelen</h6>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus sed, sollicitudin
-                et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada quam.</p>
-              <a>lees meer ›</a>
-              <p>2 weken geleden - Breda, Nederland</p>
-            </div>
-          </div>
-          <nav aria-label="...">
-            <ul class="pagination pagination-sm">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1">1</a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">2</a>
-              </li>
-              <li class="page-item">
-                <a class="page-link" href="#">3</a>
-              </li>
-            </ul>
-          </nav>
-        </main>
-      </div>
-    </div>
-  </section>
-  <section class="mt-5">
-    <div class="row">
-      <div class="col-md-6 bg-dark text-light border-top">
-        <div class="container">
-          <div class="offset-sm-2 p-4">
+    </section>
+    <footer class="mt-5 footer">
+        <div class="footer_top d-flex flex-row">
+          <div class="sign-up bg-dark text-light border-top d-flex flex-column justify-content-center align-items-start p-5">
             <h3>Wil je op de hoogte blijven? </h3>
             <p>Laat dan je e-mailadres achter om de meest recente vacatures, kandidaten en ander nieuws te ontvangen.</p>
-            <div>
+            <div class="form-group">
               <input name="email" class="form-control" placeholder="ZJe e-mail adres" />
               <button class="btn btn-danger">Aanmelden</button>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <img src="img/side.png">
-      </div>
-    </div>
-  </section>
-  <footer class="mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="mb-5">
-            <h5>Vacaturebank</h5>
-            <ul>
-              <li>Curabitur</li>
-              <li>Malesuada</li>
-              <li>Ultrices enim</li>
-              <li>Sodales nunc</li>
-              <li>Interdum</li>
-            </ul>
-          </div>
-          <div class="mb-5">
-            <h5>Vrijwilligersacademie </h5>
-            <ul>
-              <li>Curabitur</li>
-              <li>Malesuada</li>
-              <li>Ultrices enim</li>
-              <li>Sodales nunc</li>
-              <li>Interdum</li>
-            </ul>
+          <div class="banner">
+            <img src="img/side.png">
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="mb-5">
-            <h5>Advies</h5>
-            <ul>
-              <li>Curabitur</li>
-              <li>Malesuada</li>
-              <li>Ultrices enim</li>
-              <li>Sodales nunc</li>
-              <li>Interdum</li>
-            </ul>
-          </div>
-          <div class="mb-5">
-            <h5>Aanmelden</h5>
-            <ul>
-              <li>Curabitur</li>
-              <li>Malesuada</li>
-              <li>Ultrices enim</li>
-              <li>Sodales nunc</li>
-              <li>Interdum</li>
-            </ul>
+        <div class="footer_bottom mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="mb-5">
+                  <h5>Vacaturebank</h5>
+                  <nav class="col-md-3 d-flex flex-column">
+                    <a href="#">Curabitur</a>
+                    <a href="#">Malesuada</a>
+                    <a href="#">Ultrices enim</a>
+                    <a href="#">Sodales nunc</a>
+                    <a href="#">Interdum</a>
+                  </nav>
+                </div>
+                <div class="mb-5">
+                  <h5>Vrijwilligersacademie </h5>
+                  <nav class="col-md-3 d-flex flex-column">
+                    <a href="#">Curabitur</a>
+                    <a href="#">Malesuada</a>
+                    <a href="#">Ultrices enim</a>
+                    <a href="#">Sodales nunc</a>
+                    <a href="#">Interdum</a>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="mb-5">
+                  <h5>Advies</h5>
+                  <nav class="col-md-3 d-flex flex-column">
+                    <a href="#">Curabitur</a>
+                    <a href="#">Malesuada</a>
+                    <a href="#">Ultrices enim</a>
+                    <a href="#">Sodales nunc</a>
+                    <a href="#">Interdum</a>
+                  </nav>
+                </div>
+                <div class="mb-5">
+                  <h5>Aanmelden</h5>
+                  <nav class="col-md-3 d-flex flex-column">
+                    <a href="#">Curabitur</a>
+                    <a href="#">Malesuada</a>
+                    <a href="#">Ultrices enim</a>
+                    <a href="#">Sodales nunc</a>
+                    <a href="#">Interdum</a>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-md-3 d-flex flex-column">
+                <img src="img/part1.png" class="mb-5">
+                <img src="img/part2.png" class="mb-5">
+                <img src="img/part3.png" class="mb-5">
+              </div>
+              <div class="col-md-3">
+                <div>
+                  <h5>MOOIWERK</h5>
+                  <p> Postadres
+                    <br>Postbus 5675, 4801 EB Breda</p>
+                  <p> Bezoekadres
+                    <br> Heerbaan 100, Breda</p>
+                  <p class="d-flex flex-column">
+                    <span>076 523 35 55</span>
+                    <span>info@mooiwerkbreda.nl</span>
+                    <span>www.mooiwerkbreda.nl</span>
+                  </p>
+                </div>
+                <div>MOOIWERK is een onderdeel van
+                  <br>
+                  <span>Stichting Breda Actief</span>
+                </div>
+                <div class="mt-2">
+                  <h5 class="mb-2">Volg ons via</h5>
+                  <nav>
+                    <a href="#" alt="Facebook icon">
+                      <img src="img/facebook.svg">
+                    </a>
+                    <a href="#" alt="Twitter icon">
+                      <img src="img/twitter.svg">
+                    </a>
+                    <a href="#" alt="Linkedin icon">
+                      <img src="img/linkedin.svg">
+                    </a>
+                    <a href="#" alt="Youtube icon">
+                      <img src="img/youtube.svg">
+                    </a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="text-center">© 2018 Mooi Werk - All rights reserved
+            </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="mb-5">
-            <img src="img/part1.png">
-          </div>
-          <div class="mb-5">
-            <img src="img/part2.png">
-          </div>
-          <div class="mb-5">
-            <img src="img/part3.png">
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div>
-            <h5>MOOIWERK</h5>
-            <p> Postadres
-              <br>Postbus 5675, 4801 EB Breda</p>
-            <p> Bezoekadres
-              <br> Heerbaan 100, Breda</p>
-            <ul>
-              <li>076 523 35 55</li>
-              <li>info@mooiwerkbreda.nl</li>
-              <li>www.mooiwerkbreda.nl</li>
-            </ul>
-          </div>
-          <div>MOOIWERK is een onderdeel van
-            <br>
-            <span>Stichting Breda Actief</span>
-          </div>
-          <div class="mt-2">
-            <h5 class="mb-2">Volg ons via</h5>
-            <nav>
-              <a href="#" alt="Facebook icon">
-                <img src="img/facebook.svg">
-              </a>
-              <a href="#" alt="Twitter icon">
-                <img src="img/twitter.svg">
-              </a>
-              <a href="#" alt="Linkedin icon">
-                <img src="img/linkedin.svg">
-              </a>
-              <a href="#" alt="Youtube icon">
-                <img src="img/youtube.svg">
-              </a>
-            </nav>
-          </div>
-        </div>
-      </div>
-      <div class="text-center">© 2018 Mooi Werk - All rights reserved
-      </div>
-    </div>
-  </footer>
+      </footer>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script-->
+        <script src="ts/main.ts"></script>
 </body>
 
 </html>
