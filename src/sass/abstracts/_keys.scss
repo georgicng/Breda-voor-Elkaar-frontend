@@ -5,13 +5,13 @@ $breakpoints: (
     'md': $breakpoint-md,
     'lg': $breakpoint-lg,
     'xl': $breakpoint-xl
-);
+); 
 
 // Responsive breakpoint - container max width keys
 $container-max-widths: (
-    $breakpoint-xs: $container-max-width-xs,
-    $breakpoint-sm: $container-max-width-sm,
-    $breakpoint-md: $container-max-width-md,
-    $breakpoint-lg: $container-max-width-lg,
-    $breakpoint-xl: $container-max-width-xl
+    'xs': $container-max-width-xs,
+    'sm': $container-max-width-sm,
+    'md': $container-max-width-md,
+    'lg': $container-max-width-lg,
+    'xl': $container-max-width-xl
 );

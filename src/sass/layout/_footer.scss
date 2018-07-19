@@ -1,0 +1,121 @@
+.footer {}
+
+.newsletter {
+    background: $black;
+    color: $white;
+    padding-top: calculateRem(53px);
+    padding-left: calculateRem(171px);
+    width: 50%;
+}
+
+.newsletter__wrapper {}
+
+.newsletter__header {
+    width: calculateRem(352px);
+    height: calculateRem(58px);
+    line-height: calculateRem(29px);
+    font-size: calculateRem(22px);
+    font-weight: 800;
+}
+
+.newsletter__text {
+    width: calculateRem(336px);
+    height: calculateRem(72px);
+    margin-bottom: calculateRem(49px);
+    line-height: calculateRem(24px);
+    font-size: calculateRem(16px);
+}
+
+.newsletter__input {
+    width: calculateRem(307px);
+    height: calculateRem(57px);
+}
+
+.newsletter__button {
+    width: calculateRem(140px);
+    height: calculateRem(57px);
+    color: $white;
+    background: $red;
+}
+
+.banner {
+    width: 50%;
+}
+
+.banner__image {
+    width: 100%;
+}
+
+.footer_bottom {
+    padding-top: calculateRem(80px);
+    font-size: calculateRem(15px);
+    line-height: calculateRem(24px);
+}
+
+.footer-menu__header {
+    font-family: $headings-font-family;
+}
+
+.footer-menu__header_green {
+    color: $green;
+}
+
+.footer-menu__header_purple {
+    color: $purple;
+}
+
+.footer-menu__header_yellow {
+    color: $yellow;
+}
+
+.footer-menu__header_blue {
+    color: $blue;
+}
+
+.footer-menu__nav {
+    line-height: calculateRem(20px);
+    margin-bottom: calculateRem(78px);
+}
+
+.footer-menu__icon {
+    margin-bottom: calculateRem(57px);
+}
+
+.footer-menu__contact {
+    line-height: calculateRem(20px);
+    height: calculateRem(261px);
+}
+
+.footer-menu__contact-wrapper {
+    height: calculateRem(261px);
+} 
+
+.footer-menu__contact-name {
+    font-family: $headings-font-family;
+    font-weight: 800;
+}
+
+.footer-menu__slogan{
+    color: $gray;
+    margin-bottom: calculateRem(15px);
+}
+
+.footer-menu__slogan_emphasis {
+    color: $blue;
+}
+
+.footer-menu__social-header {
+    font-family: $headings-font-family;
+    font-weight: 800;
+}
+
+.footer-menu__social-link {
+    margin-right: calculateRem(21px);
+}
+
+.footer-menu__copyright {
+    text-align: center;
+    padding-top: calculateRem(44px);
+    padding-bottom: calculateRem(32px);
+    color: $gray;
+}

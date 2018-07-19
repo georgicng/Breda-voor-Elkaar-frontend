@@ -1,0 +1,33 @@
+.header {
+    height: 2.1875rem;
+    line-height: 1.0625rem;
+}
+
+.header_color {
+    background: $black;
+}
+
+.header__search {
+    margin-top: 0.5rem;
+    margin-bottom: 0.4375rem;
+    margin-right: 2rem;
+}
+
+.header__input {
+    color: $gray;
+    background: rgba( $black, .7 );
+    border: 0;
+    &:hover, &:focus{
+        border: 0;
+    } 
+}
+
+.header__login {
+    margin-top: 0.5625rem;
+    margin-bottom: 0.3125rem;
+    color: $white;
+
+    &:hover, &:focus{
+        color: $red;
+    }
+}

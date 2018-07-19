@@ -5,26 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/fonts.css" -->
-    <link rel="stylesheet" href="./sass/style.scss">
-    <title>Home - MooiWerk</title>
+    <meta name="description" content="mooiwerk">
+    <meta name="keywords" content="mooiwerk">
+    <title>Home - MooiWer</title>
+    <link rel="stylesheet" href="sass/style.scss">
 </head>
 
 <body>
 
-    <header class="header bg-dark text-light">
-        <div class="container">
-            <div class="top-bar d-flex justify-content-end">
-                <div class="w-25">
-                    <img src="img/search.svg" alt="Search Icon"> Zoeken
-                </div>
-                <div class="pr-2 pl-2">
-                    Inloggen
-                </div>
+    <header class="header bg-primary">
+        <div class="container d-none d-md-flex justify-content-md-end header__content">
+            <div class="header__search">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Zoeken" class="header__input" />
             </div>
+            <a href="#" class="header__login">Inloggen</a>
         </div>
     </header>
     <nav class="navbar navbar-expand-md navbar-light text-dark bg-light">
@@ -65,243 +60,243 @@
             </div>
         </div>
     </nav>
-
-    <section class="bg-secondary mb-5">
+    <section class="hero">
         <div class="container">
-                <div class="d-flex flex-column justify-content-end py-5 mx-5">
-                    <h1 class="display-3">Vrijwilliger zijn?</h1>
-                    <p>Vind je vacature.</p>
-                    <div class="d-flex">
-                        <input name="s" placeholder="Zoek op trefwoord"  class="flex-grow-1"/>
-                        <button class="btn btn-danger">search</button>
-                    </div>
-                </div>
+            <h1 class="hero__header">Vrijwilliger zijn?</h1>
+            <h3 class="hero__sub-header">Vind je vacature.</h3>
+            <div class="d-flex hero__form">
+                    <form class="form-inline">
+                            <label class="sr-only" for="s">Search</label>
+                <input name="s" placeholder="Zoek op trefwoord" class="hero__search" />
+                <button type="submit" class="btn hero__btn">search</button>
+            </form>
+            </div>
         </div>
     </section>
-    <section class="mt-3">
+    <section class="top-news">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Op zoek naar vrijwilligerswerk?</h5>
-                            <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
-                            <a href="#">lees meer ›</a>
-                        </div>
+            <div class="card-deck top-news__cards">
+                <div class="card top-news__card">
+                    <div class="card-body">
+                        <h3 class="card-title">Op zoek naar vrijwilligerswerk?</h3>
+                        <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
+                        <a href="#">lees meer ›</a>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">CMeer weten over vrijwilligerswerk?</h5>
-                            <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
-                            <a href="#">lees meer ›</a>
-                        </div>
+                <div class="card top-news__card">
+                    <div class="card-body">
+                        <h3 class="card-title">CMeer weten over vrijwilligerswerk?</h3>
+                        <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
+                        <a href="#">lees meer ›</a>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">CVrijwilligers in uw organisatie?</h5>
-                            <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
-                            <a href="#">lees meer ›</a>
-                        </div>
+                <div class="card top-news__card">
+                    <div class="card-body">
+                        <h3 class="card-title">CVrijwilligers in uw organisatie?</h3>
+                        <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
+                        <a href="#">lees meer ›</a>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Nog te bedenken als CTA!</h5>
-                            <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
-                            <a href="#">lees meer ›</a>
-                        </div>
+                <div class="card top-news__card">
+                    <div class="card-body">
+                        <h3 class="card-title">Nog te bedenken als CTA!</h3>
+                        <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
+                        <a href="#">lees meer ›</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="mt-3 mb-5">
+    <section class="news-list">
         <div class="container">
-            <h1 class="p-2">Of bent u op zoek na Copy</h1>
+            <h3 class="news-list__header">Of bent u op zoek na Copy</h3>
             <div class="row">
                 <div class="col-md-4">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Link voorbeeld</li>
-                        <li class="list-group-item">Link voorbeeld</li>
-                        <li class="list-group-item">Link voorbeeld</li>
+                    <ul class="list-group list-group-flush news-list__item">
+                        <li class="list-group-item">
+                            <a href="#" class="news-list__link">Link voorbeeld</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="news-list__link">Link voorbeeld</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="news-list__link">Link voorbeeld</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Link voorbeeld</li>
-                        <li class="list-group-item">Link voorbeeld</li>
-                        <li class="list-group-item">Link voorbeeld</li>
+                    <ul class="list-group list-group-flush news-list__item">
+                        <li class="list-group-item">
+                            <a href="#" class="news-list__link">Link voorbeeld</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="news-list__link">Link voorbeeld</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="news-list__link">Link voorbeeld</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Link voorbeeld</li>
-                        <li class="list-group-item">Link voorbeeld</li>
-                        <li class="list-group-item">Link voorbeeld</li>
+                    <ul class="list-group list-group-flush news-list__item">
+                        <li class="list-group-item">
+                            <a href="#" class="news-list__link">Link voorbeeld</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="news-list__link">Link voorbeeld</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="news-list__link">Link voorbeeld</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section class="mt-3 mb-3 bg-secondary">
+    <section class="vacancies bg-secondary">
         <div class="container">
-            <h1 class="p-2">Cursussen</h1>
+            <h1 class="vacancy__title">Cursussen</h1>
             <div class="row">
-                <div class="col-md-4">
+                <sidebar class="col-md-4 vacancy-sidebar ">
                     <div class="bg-danger text-light p-4">
-                        <h3>Intro over cursussen lorep ipsum Breda cras sectum</h3>
-                        <p>In tempus pulvinar mattis. Sed sed feugiat metus. Nam sollicitudin risus sapien, id bibendum urna
-                            laoreet nec. Etiam efficitur libero eget nisl euismod, a rutrum leo sagittis. Mauris egestas
-                            diam purus. In tempus pulvinar mattis. Sed sed feugiat metus. Nam sollicitudin risus sapien,
-                            id bibendum urna laoreet nec. Etiam efficitur libero eget nisl euismod, a rutrum leo sagittis.
-                            Mauris egestas diam purus.</p>
-                        <p> In tempus pulvinar mattis. Sed sed feugiat metus. Nam sollicitudin risus sapien, id bibendum urna
-                            laoreet nec. Etiam efficitur libero eget nisl euismod.</p>
-                        <a href="#" class="btn btn-light">alle cursussen ›</a>
+                        <h3 class="vacancy-sidebar___header">Intro over cursussen lorep ipsum Breda cras sectum</h3>
+                        <div class="vacancy-sidebar___text">
+                            <p>In tempus pulvinar mattis. Sed sed feugiat metus. Nam sollicitudin risus sapien, id bibendum
+                                urna laoreet nec. Etiam efficitur libero eget nisl euismod, a rutrum leo sagittis. Mauris
+                                egestas diam purus. In tempus pulvinar mattis. Sed sed feugiat metus. Nam sollicitudin risus
+                                sapien, id bibendum urna laoreet nec. Etiam efficitur libero eget nisl euismod, a rutrum
+                                leo sagittis. Mauris egestas diam purus.</p>
+                            <p> In tempus pulvinar mattis. Sed sed feugiat metus. Nam sollicitudin risus sapien, id bibendum
+                                urna laoreet nec. Etiam efficitur libero eget nisl euismod.</p>
+                        </div>
+                        <a href="#" class="btn btn-light vacancy-sidebar___button">alle cursussen ›</a>
                     </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="mt-4 mb-4">
-                        <a class="p-2 bg-dark text-light">28 mei</a>
-                        <div class="p-4 bg-light text-ark border-top border-dark">
-                            <h2>Basistraining voor taalvrijwilligers</h2>
-                            <h3>Leer mensen met een taalachterstand de Nederlandse taal te lezen en spreken </h3>
-                            <p>Ben jij een vrijwilliger of werk jij met vrijwilligers? Dan is deze informatie bijeenkomst van
+                </sidebar>
+                <div class="col-md-8 vacancy__lists">
+                    <div class="vacancy__item vacancy-tab">
+                        <div class="vacancy-tab__top p-2 ">28 mei</div>
+                        <div class="vacancy-tab__content p-4">
+                            <h3 class="vacancy-tab__header">Basistraining voor taalvrijwilligers</h3>
+                            <h3 class="vacancy-tab__subheader">Leer mensen met een taalachterstand de Nederlandse taal te lezen en spreken </h3>
+                            <p class="vacancy-tab__body">Ben jij een vrijwilliger of werk jij met vrijwilligers? Dan is deze informatie bijeenkomst van
                                 belang voor jouw vereniging, stichting of organisatie. Kom ook naar de informatie bijeenkomst
                                 en word op de hoogte gebracht van wijzigingen en nieuwe toevoegingen op het gebied van vrijwilligersverzekeringen.</p>
-                            <a>lees meer ›</a>
+                            <a href="#" class="vacancy-tab__link">lees meer ›</a>
                         </div>
                     </div>
-                    <div class="mt-4 mb-4">
-                        <a class="p-2 bg-dark text-light">28 mei</a>
-                        <div class="p-4 bg-light text-ark border-top border-dark">
-                            <h2>Basistraining voor taalvrijwilligers</h2>
-                            <h3>Leer mensen met een taalachterstand de Nederlandse taal te lezen en spreken </h3>
-                            <p>Ben jij een vrijwilliger of werk jij met vrijwilligers? Dan is deze informatie bijeenkomst van
+                    <div class="vacancy__item vacancy-tab">
+                        <div class="vacancy-tab__top p-2">28 mei</div>
+                        <div class="vacancy-tab__content p-4 bg-light">
+                            <h3 class="vacancy-tab__header">Basistraining voor taalvrijwilligers</h3>
+                            <h3 class="vacancy-tab__subheader">Leer mensen met een taalachterstand de Nederlandse taal te lezen en spreken </h3>
+                            <p class="vacancy-tab__body">Ben jij een vrijwilliger of werk jij met vrijwilligers? Dan is deze informatie bijeenkomst van
                                 belang voor jouw vereniging, stichting of organisatie. Kom ook naar de informatie bijeenkomst
                                 en word op de hoogte gebracht van wijzigingen en nieuwe toevoegingen op het gebied van vrijwilligersverzekeringen.</p>
-                            <a>lees meer ›</a>
+                            <a href="#" class="vacancy-tab__link">lees meer ›</a>
                         </div>
                     </div>
-                    <div class="mt-4 mb-4">
-                        <a class="p-2 bg-dark text-light">28 mei</a>
-                        <div class="p-4 bg-light text-ark border-top border-dark">
-                            <h2>Basistraining voor taalvrijwilligers</h2>
-                            <h3>Leer mensen met een taalachterstand de Nederlandse taal te lezen en spreken </h3>
-                            <p>Ben jij een vrijwilliger of werk jij met vrijwilligers? Dan is deze informatie bijeenkomst van
+                    <div class="vacancy__item vacancy-tab">
+                        <div class="vacancy-tab__top p-2 ">28 mei</div>
+                        <div class="vacancy-tab__content p-4 bg-light text-ark border-top border-dark">
+                            <h3 class="vacancy-tab__header">Basistraining voor taalvrijwilligers</h3>
+                            <h3 class="vacancy-tab__subheader">Leer mensen met een taalachterstand de Nederlandse taal te lezen en spreken </h3>
+                            <p class="vacancy-tab__body">Ben jij een vrijwilliger of werk jij met vrijwilligers? Dan is deze informatie bijeenkomst van
                                 belang voor jouw vereniging, stichting of organisatie. Kom ook naar de informatie bijeenkomst
                                 en word op de hoogte gebracht van wijzigingen en nieuwe toevoegingen op het gebied van vrijwilligersverzekeringen.</p>
-                            <a>lees meer ›</a>
+                            <a href="#" class="vacancy-tab__link">lees meer ›</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="m-5">
+    <section class="newsdeck">
         <div class="container">
-            <h1>Nieuws</h1>
+            <h1 class="newsdeck__title">Nieuws</h1>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card m-1 p-4 bg-light text-ark border-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nieuw jaar, nieuwe tijden!</h5>
-                                    <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
-                                    <a href="#">lees meer ›</a>
-                                </div>
+                    <div class="card-deck newsdeck__item_margin-bottom">
+                        <div class="card newsdeck__item newsdeck__item_small">
+                            <div class="card-block">
+                                <h3 class="card-title">Nieuw jaar, nieuwe tijden!</h3>
+                                <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
+                                <a href="#">lees meer ›</a>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card m-1 p-4 bg-light text-ark border-top ">
-                                <div class="card-body">
-                                    <h5 class="card-title">Meer dan de helft van de jongeren zat zich in als vrijwilliger!</h5>
-                                    <p class="card-text"></p>
-                                    <a href="#">lees meer ›</a>
-                                </div>
+                        <div class="card border-top newsdeck__item newsdeck__item_small">
+                            <div class="card-block newsdeck__item_align">
+                                <h3 class="card-title">Meer dan de helft van de jongeren zat zich in als vrijwilliger!</h3>
+                                <p class="card-text"></p>
+                                <a href="#">lees meer ›</a>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card m-2 p-4 bg-light text-light border-top">
-                                    <img class="card-img w-100" src="img/home_overlay.png" alt="Card image"/>
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Hoe krijg je meer leden naar de ALV: tips en trucs</h5>
-                                    <p class="card-text">De jaarlijkse terugkerende ALV staat in de planning van vrijwel alle (sport)verenigingen.
-                                        Maar in de praktijk blijkt het best om je leden te motiveren deel te nemen aan ...</p>
-                                    <a href="#">lees meer ›</a>
-                                </div>
+                    <div class="card newsdeck__item newsdeck__item_big">
+                        <div class="card-block newsdeck__item_align">
+                            <img class="card-img w-100" src="img/home_overlay.png" alt="Card image" />
+                            <div class="card-img-overlay newsdeck__caption d-flex flex-column justify-content-end text-white">
+                                <h2 class="card-title">Hoe krijg je meer leden naar de ALV: tips en trucs</h2>
+                                <p class="card-text">De jaarlijkse terugkerende ALV staat in de planning van vrijwel alle (sport)verenigingen.
+                                    Maar in de praktijk blijkt het best om je leden te motiveren deel te nemen aan ...</p>
+                                <a href="#" class="text-white">lees meer ›</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card m-2 p-4 bg-light text-light border-top">
-                                    <img class="card-img mw-100" src="img/home_overlay.png" alt="Card image"/>
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">“Elk jaar opnieuw ontmoet ik nieuwe mooie mensen”</h5>
+                        <div class="card newsdeck__item newsdeck__item_big">
+                            <div class="card-block">
+                                <img class="card-img mw-100" src="img/home_overlay.png" alt="Card image" />
+                                <div class="card-img-overlay newsdeck__caption d-flex flex-column justify-content-end text-white">
+                                    <h2 class="card-title">“Elk jaar opnieuw ontmoet ik nieuwe mooie mensen”</h2>
                                     <p class="card-text">Interview Emmy Rau "Elk jaar opnieuw ontmoet ik nieuwe mooie mensen, daar kijk ik nu
                                         al naar uit." Emmy Rau is 47 jaar, moeder van …</p>
-                                    <a href="#">lees meer ›</a>
+                                    <a href="#" class="text-white">lees meer ›</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card m-1 p-4 bg-light text-ark border-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nulla et neque sit amet libero auctorisp</h5>
+                        <div class="card-deck newsdeck__item_margin-top">
+                            <div class="card newsdeck__item newsdeck__item_small">
+                                <div class="card-block newsdeck__item_align">
+                                    <h3 class="card-title">Nulla et neque sit amet libero auctorisp</h3>
+                                    <p class="card-text"></p>
+                                    <a href="#">lees meer ›</a>
+                                </div>
+                            </div>
+                            <div class="card newsdeck__item newsdeck__item_small">
+                                <div class="card-block newsdeck__item_align">
+                                    <h3 class="card-title">Benieuwd wat er nog meer om Mooi Werk gebeurd?</h3>
                                     <p class="card-text"></p>
                                     <a href="#">lees meer ›</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card m-1 p-4 bg-light text-ark border-top">
-                                <div class="card-body">
-                                    <h5 class="card-title">Benieuwd wat er nog meer om Mooi Werk gebeurd?</h5>
-                                    <p class="card-text"></p>
-                                    <a href="#">lees meer ›</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
     </section>
-    <footer class="mt-5 footer">
+    <footer class="footer">
         <div class="footer_top d-flex flex-row">
-            <div class="bg-dark text-light">
-                <div class="sign-up d-flex flex-column justify-content-center align-items-start m-5">
-                <h3>Wil je op de hoogte blijven? </h3>
-                <p>Laat dan je e-mailadres achter om de meest recente vacatures, kandidaten en ander nieuws te ontvangen.</p>
-                <div class="d-flex">
-                    <input name="email" class="form-control" placeholder="ZJe e-mail adres" />
-                    <button class="btn btn-danger">Aanmelden</button>
+            <div class="newsletter">
+                <div class="newsletter__wrapper d-flex flex-column justify-content-center align-items-start">
+                    <h3 class="newsletter__header">Wil je op de hoogte blijven? </h3>
+                    <p class="newsletter__text">Laat dan je e-mailadres achter om de meest recente vacatures, kandidaten en ander nieuws te ontvangen.</p>
+                    <div class="d-flex">
+                        <input name="email" class="form-control newsletter__input" placeholder="ZJe e-mail adres" />
+                        <button class="btn btn-danger newsletter__button">Aanmelden</button>
+                    </div>
                 </div>
             </div>
-            </div>
             <div class="banner">
-                <img src="img/side.png">
+                <img src="img/side.png" class="img-fluid banner__image" alt="fotter pattern">
             </div>
         </div>
-        <div class="footer_bottom mt-5">
+        <div class="footer_bottom">
             <div class="container">
-                <div class="row">
+                <div class="row footer-menu">
                     <div class="col-md-3">
-                        <div class="mb-5">
-                            <h5>Vacaturebank</h5>
-                            <nav class="col-md-3 d-flex flex-column">
+                        <div class="mb-5 footer-menu__">
+                            <h5 class="footer-menu__header footer-menu__header_green">Vacaturebank</h5>
+                            <nav class="footer-menu__nav d-flex flex-column">
                                 <a href="#">Curabitur</a>
                                 <a href="#">Malesuada</a>
                                 <a href="#">Ultrices enim</a>
@@ -310,8 +305,8 @@
                             </nav>
                         </div>
                         <div class="mb-5">
-                            <h5>Vrijwilligersacademie </h5>
-                            <nav class="col-md-3 d-flex flex-column">
+                            <h5 class="footer-menu__header footer-menu__header_blue">Vrijwilligersacademie </h5>
+                            <nav class="footer-menu__nav d-flex flex-column">
                                 <a href="#">Curabitur</a>
                                 <a href="#">Malesuada</a>
                                 <a href="#">Ultrices enim</a>
@@ -322,8 +317,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="mb-5">
-                            <h5>Advies</h5>
-                            <nav class="col-md-3 d-flex flex-column">
+                            <h5 class="footer-menu__header footer-menu__header_yellow">Advies</h5>
+                            <nav class="footer-menu__nav  d-flex flex-column">
                                 <a href="#">Curabitur</a>
                                 <a href="#">Malesuada</a>
                                 <a href="#">Ultrices enim</a>
@@ -332,8 +327,8 @@
                             </nav>
                         </div>
                         <div class="mb-5">
-                            <h5>Aanmelden</h5>
-                            <nav class="col-md-3 d-flex flex-column">
+                            <h5 class="footer-menu__header footer-menu__header_purple">Aanmelden</h5>
+                            <nav class="footer-menu__nav d-flex flex-column">
                                 <a href="#">Curabitur</a>
                                 <a href="#">Malesuada</a>
                                 <a href="#">Ultrices enim</a>
@@ -342,48 +337,48 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="col-md-3 d-flex flex-column">
-                        <img src="img/part1.png" class="mb-5">
-                        <img src="img/part2.png" class="mb-5">
-                        <img src="img/part3.png" class="mb-5">
+                    <div class="col-md-3 footer-menu__icons d-flex flex-column align-items-start">
+                        <img src="img/part2.png" class="footer-menu__icon">
+                        <img src="img/part1.png" class="footer-menu__icon">                        
+                        <img src="img/part3.png" class="footer-menu__icon">
                     </div>
-                    <div class="col-md-3">
-                        <div>
-                            <h5>MOOIWERK</h5>
-                            <p> Postadres
-                                <br>Postbus 5675, 4801 EB Breda</p>
-                            <p> Bezoekadres
+                    <div class="col-md-3 footer-menu__contact">
+                        <div class="footer-menu__contact-wrapper">
+                            <h5 class="footer-menu__contact-name">MOOIWERK</h5>
+                            <p class="footer-menu__contact-postal"> Postadres
+                                <br/>Postbus 5675, 4801 EB Breda</p>
+                            <p class="footer-menu__contact-office"> Bezoekadres
                                 <br> Heerbaan 100, Breda</p>
-                            <p class="d-flex flex-column">
+                            <p class="footer-menu__direct d-flex flex-column">
                                 <span>076 523 35 55</span>
                                 <span>info@mooiwerkbreda.nl</span>
                                 <span>www.mooiwerkbreda.nl</span>
                             </p>
                         </div>
-                        <div>MOOIWERK is een onderdeel van
-                            <br>
-                            <span>Stichting Breda Actief</span>
+                        <div class="footer-menu__slogan">MOOIWERK is een onderdeel van
+                            <br />
+                            <span class="footer-menu__slogan_emphasis">Stichting Breda Actief</span>
                         </div>
-                        <div class="mt-2">
-                            <h5 class="mb-2">Volg ons via</h5>
-                            <nav>
-                                <a href="#" alt="Facebook icon">
-                                    <img src="img/facebook.svg">
+                        <div class="footer-menu__socials">
+                            <h5 class="footer-menu__social-header">Volg ons via</h5>
+                            <nav class="footer-menu__social-links">
+                                <a href="#" class="footer-menu__social-link" alt="Facebook icon">
+                                    <img src="img/facebook.svg" class="footer-menu__social-link-icon">
                                 </a>
-                                <a href="#" alt="Twitter icon">
-                                    <img src="img/twitter.svg">
+                                <a href="#" class="footer-menu__social-link" alt="Twitter icon">
+                                    <img src="img/twitter.svg" class="footer-menu__social-link-icon">
                                 </a>
-                                <a href="#" alt="Linkedin icon">
-                                    <img src="img/linkedin.svg">
+                                <a href="#" class="footer-menu__social-link" alt="Linkedin icon">
+                                    <img src="img/linkedin.svg" class="footer-menu__social-link-icon">
                                 </a>
-                                <a href="#" alt="Youtube icon">
-                                    <img src="img/youtube.svg">
+                                <a href="#" class="footer-menu__social-link" alt="Youtube icon">
+                                    <img src="img/youtube.svg" class="footer-menu__social-link-icon">
                                 </a>
                             </nav>
                         </div>
                     </div>
                 </div>
-                <div class="text-center">© 2018 Mooi Werk - All rights reserved
+                <div class="footer-menu__copyright ">© 2018 Mooi Werk - All rights reserved
                 </div>
             </div>
         </div>
@@ -398,7 +393,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script-->
-    <script src="ts/main.ts"></script>
+    <script src="ts/main.js"></script>
 </body>
 
 </html>
