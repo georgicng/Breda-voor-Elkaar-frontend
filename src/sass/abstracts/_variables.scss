@@ -1,5 +1,6 @@
 // CSS debug
 $debug: false;
+
 // Colors
 $white: #fff;
 $off-white: #f2f2f2;
@@ -10,19 +11,21 @@ $blue: #6bc4cb;
 $purple: #ba50a2;
 $yellow: #ef7a1a;
 $green: #50ba3a;
+
+
 // Typography
-$font-family-sans-serif: "Mohr-Regular",
-sans-serif;
+$font-family-sans-serif: "Mohr-Regular", sans-serif;
 $headings-font-family: "MohrAlt-Regular";
 //$heading-font: 'sans-serif';
 $paragraph-font: 'sans-serif';
 $font-awesome-font-family: 'Font Awesome 5 Free';
+
 //Typography font-size
 $font-size-base: 1rem;
 $font-size-lg: $font-size-base;
 $h1-font-size: $font-size-base * 3;
 $h2-font-size: $font-size-base * 2.25;
-$h3-font-size : $font-size-base * 1.375;
+$h3-font-size:  $font-size-base * 1.375;
 // Assign colors
 $primary: $black;
 $secondary: $off-white;
@@ -30,16 +33,20 @@ $tertiary: $blue;
 $link-color: $black;
 $border-color: $black;
 $custom-container: 0 10.6875rem;
+
 // Grid settings
+
 $grid-columns-amount: 12;
 $grid-gutter-width: 3rem;
 $grid-row-gap-height: 2rem;
+
 // Responsive breakpoints, based on minimum value
 $breakpoint-xs: 0;
 $breakpoint-sm: 50rem;
 $breakpoint-md: 80rem;
 $breakpoint-lg: 100rem;
 $breakpoint-xl: 120rem;
+
 // Responsive container max-widths
 $container-max-width-xs: 100%;
 $container-max-width-sm: 50rem;
@@ -47,7 +54,8 @@ $container-max-width-md: 55rem;
 $container-max-width-lg: 60rem;
 $container-max-width-xl: 72rem;
 //72.295rem
+
 //border
 $border-top: 1.125rem solid $black;
 $enable-rounded: false;
-$card-deck-margin : 1rem;
+$card-deck-margin:   1rem;

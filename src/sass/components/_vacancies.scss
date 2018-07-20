@@ -1,7 +1,7 @@
 .vacancies {
     padding-top: 5.5625rem;
     padding-bottom: 6.25rem;
-    background-image: url('../../img/home-background.png');
+    background-image: url('../img/home-background.png');
     background-repeat: no-repeat;
     background-position: bottom 0rem left 0rem;
 }
@@ -11,27 +11,27 @@
 }
 
 .vacancy-sidebar {
-    padding: 0 calculateRem(33px);
+    padding: 0 33px;
 }
 
 .vacancy-sidebar___header {
-    font-size: calculateRem(22px);
-    line-height: calculateRem(29px);
+    font-size: 22px;
+    line-height: 29px;
     font-weight: 800;
-    padding-top: calculateRem(29px);
-    margin-bottom: calculateRem(17px);
+    padding-top: 29px;
+    margin-bottom: 17px;
 }
 
 .vacancy-sidebar___text {
-    font-size: calculateRem(15px);
-    line-height: calculateRem(24px);
-    height: calculateRem(546px);
+    font-size: 15px;
+    line-height: 24px;
+    height: 546px;
 }
 
 .vacancy-sidebar___button {
-    height: calculateRem(48px);
-    width: calculateRem(165px);
-    margin-bottom: calculateRem(32px);
+    height: 48px;
+    width: 165;
+    margin-bottom: 32px;
     line-height: calculateRem(26px);
     font-size: calculateRem(16px);
 }

@@ -15,19 +15,21 @@
 
 .header__input {
     color: $gray;
-    background: rgba( $black, .7 );
-    border: 0;
-    &:hover, &:focus{
-        border: 0;
-    } 
+    background: rgba( $black, .7) !important;
+    border: 0 !important;
+    &:hover,
+    &:focus {
+        border: 0 !important;
+        background: transparent !important;
+    }
 }
 
 .header__login {
     margin-top: 0.5625rem;
     margin-bottom: 0.3125rem;
     color: $white;
-
-    &:hover, &:focus{
+    &:hover,
+    &:focus {
         color: $red;
     }
 }

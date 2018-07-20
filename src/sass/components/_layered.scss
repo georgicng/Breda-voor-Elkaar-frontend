@@ -1,0 +1,109 @@
+.vacancy-list {
+    padding-top: calculateRem(100px);
+    padding-bottom: calculateRem(83px);
+    background-image: url('../img/vacancy-background.png');
+    background-repeat: no-repeat;
+    background-position: bottom 13rem left 2rem;
+}
+
+.vacancy-list__layered {
+    line-height: calculateRem(20px); //1.6875rem;
+    font-size: calculateRem(15px); //1.25rem;
+}
+
+.vacancy-list__layered-group-header {
+    line-height: calculateRem(29px);
+    font-size: calculateRem(22px);
+    margin-bottom: calculateRem(10px);
+}
+
+.vacancy-list__layered-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: calculateRem(49px);
+}
+
+.vacancy-list__layered-field-radio-wrapper {
+    margin-bottom: calculateRem(10px);
+}
+
+.vacancy-list__layered-field-radio {
+    width: calculateRem(16px); //height: calculateRem(16px);
+}
+
+.vacancy-list__layered-field-wrap {
+    width: calculateRem(259px);
+    height: calculateRem(19px);
+    margin-bottom: calculateRem(10px);
+}
+
+.vacancy-list__layered-field-checkbox-wrapper {}
+
+.vacancy-list__layered-field-checkbox {
+    width: calculateRem(16px); //height: calculateRem(16px);
+}
+
+.vacancy-list__layered-btn {
+    color: $blue;
+    font-weight: 800;
+    line-height: calculateRem(29px); //1.6875rem;
+    font-size: calculateRem(16px); //1.25rem;
+}
+
+.vacancy-list__item-wrapper {
+    padding-top: calculateRem(32px);
+    padding-bottom: calculateRem(19px);
+    padding-right: calculateRem(30px);
+    padding-left: calculateRem(30px);
+    margin-bottom: calculateRem(32px);
+    line-height: calculateRem(24px);
+    font-size: calculateRem(16px);
+}
+
+.vacancy-list__item-header-wrapper {
+    margin-bottom: calculateRem(15px);
+}
+
+.vacancy-list__item-header {
+    line-height: calculateRem(22px);
+    font-size: calculateRem(19px);
+    height: calculateRem(58px);
+}
+
+.vacancy-list__item-subheader {
+    line-height: calculateRem(25px);
+    font-size: calculateRem(14px);
+}
+
+.vacancy-list__item-body {
+    padding: 0;
+    margin-bottom: calculateRem(6px);
+}
+
+.vacancy-list__item-text {
+    margin: 0;
+}
+
+.vacancy-list__item-link {
+    line-height: calculateRem(26px);
+    font-size: calculateRem(16px);
+    font-family: $headings-font-family;
+    @include media-breakpoint-up(md) {
+        position: absolute;
+        bottom: 55px;
+        right: 170px;
+    }
+}
+
+.vacancy-list__item-footer {
+    padding: 0;
+    background-color: $white;
+    border-top: 0;
+    line-height: calculateRem(29px);
+    font-size: calculateRem(14px);
+    font-family: $headings-font-family;
+}
+
+.vacancy-list__pagination {
+    margin-top: calculateRem(63px);
+}

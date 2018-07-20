@@ -1,0 +1,27 @@
+input[type='radio']:checked,
+input[type='checkbox']:checked {
+    color: $blue;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'] {
+    color: $gray;
+    background: $white;
+    line-height: calculateRem(21px);
+    font-size: calculateRem(16px);
+    width: 100%;
+    margin-bottom: calculateRem(12px);
+}
+
+input[type='submit'] {
+    color: $white;
+    background: $red;
+    text-align: center;
+    line-height: calculateRem(21px);
+    font-size: calculateRem(16px);
+    width: 100%;
+    font-family: $headings-font-family;
+    font-weight: 800;
+    margin-bottom: calculateRem(12px);
+}
