@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="mooiwerk">
+    <meta name="keywords" content="mooiwerk">
+    <title>Blog - MooiWer</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <header class="header bg-primary">
+        <div class="container d-none d-md-flex justify-content-md-end header__content">
+            <div class="header__search">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Zoeken" class="header__input" />
+            </div>
+            <a href="#" class="header__login">Inloggen</a>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-md navbar-light text-dark bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="assets/img/logo.svg" alt="Mooiwerk">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="vacancies.html">Vacaturebank
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vacancy.html">Vrijwilligersacedemie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Advies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <!--li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <img src="assets/img/header.png" alt="banner" class="w-100 img-fluid" />
+    </section>
+    <section class="company">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1 class="company__name">Naam van vereniging</h1>
+                    <div class="d-flex company__profile">
+                        <div class="company__logo-wrapper">
+                            <img src="assets/img/logo_b1.png" class="w-100 img-fluid company__logo">
+                        </div>
+                        <div class="company__contact">
+                            <div class="d-flex flex-column company__contact-group">
+                                <small class="company__address">Straatnaam 12</small>
+                                <small class="company__phone">4811 XT Breda</small>
+                                <small class="company__website">www.website.nl</small>
+                                <small class="company__email">naamachternaam@email.com</small>
+                            </div>
+                            <nav class="company__social-links">
+                                <a href="#" class="company__social-link">
+                                    <img src="assets/img/facebook.svg" alt="Facebook" class="company__social-link-icon">
+                                </a>
+                                <a href="#" class="company__social-link">
+                                    <img src="assets/img/twitter.svg" alt="Twitter" class="company__social-link-icon">
+                                </a>
+                                <a href="#" class="company__social-link">
+                                    <img src="assets/img/linkedin.svg" alt="Linkedin" class="company__social-link-icon">
+                                </a>
+                                <a href="#" class="company__social-link">
+                                    <img src="assets/img/youtube.svg" alt="Google+" class="company__social-link-icon">
+                                </a>
+                                <a href="#" class="company__social-link">
+                                    <img src="assets/img/instagram.svg" alt="Instagram" class="company__social-link-icon">
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="row company__bio">
+                        <p>WDS’19 is een voetbalvereniging welke in de samenleving en wijk staat. Wij zijn een Open Club, hiermee
+                            spelen we in op, naast de voetbalbehoefte, ook de buurtbehoefte. Bij WDS’19 kun je op elk niveau
+                            met plezier voetballen zowel voor jongens, meisjes, heren en dames. Wij hebben zowel recreatief
+                            als prestatie gerichte teams.
+                        </p>
+                        <p>Wil je ook eens komen kennis maken met de gezelligheid en warmte van de oudste amateur voetbalclub
+                            van Breda, mail dan naar info@wds19.nl!</p>
+                    </div>
+                    <div class="d-flex flex-wrap text-dark company__categories">
+                        <a class="btn bg-transparent border border-dark company__category">Bar & kantine</a>
+                        <a class="btn bg-transparent border border-dark company__category">Bestuur & strategie</a>
+                        <a class="btn bg-transparent border border-dark company__category">Coördineren & regelen</a>
+                        <a class="btn bg-transparent  border border-dark company__category">2Sporten</a>
+                        <a class="btn bg-transparent border border-dark company__category">Toezicht & beheer</a>
+                    </div>
+                    <div class="row company__vacancies">
+                        <h2 class="company__vacancies-header">Vacatures van Naam van vereniging</h2>
+                        <div class="card shadow border-light vacancy-card">
+                            <div class="row vacancy-card__header-wrapper">
+                                <div class="col-md-4 col-xs-12 vacancy-card__figure">
+                                    <img src="assets/img/logo_v1.png" class="vacancy-card__image">
+                                </div>
+                                <div class="col-md-8 col-xs-12 vacancy-card__header-group">
+                                    <h2 class="card-title vacancy-card__header">Vrijwillig consulent GGZ en Vriendendienst</h2>
+                                    <h3 class="card-subtitle vacancy-card__subheader">Coördineren & regelen</h3>
+                                </div>
+                            </div>
+                            <div class="card-body vacancy-card__body">
+                                <p class="vacancy-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                    sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis
+                                    malesuada quam.
+                                </p>
+                                <a href="#" class="card-link vacancy-card__link">lees meer ›</a>
+                            </div>
+                            <div class="card-footer vacancy-card__footer">2 weken geleden - Breda, Nederland</div>
+                        </div>
+                        <div class="card shadow border-light vacancy-card">
+                            <div class="row vacancy-card__header-wrapper">
+                                <div class="col-md-4 col-xs-12 vacancy-card__figure">
+                                    <img src="assets/img/logo_v1.png" class="vacancy-card__image">
+                                </div>
+                                <div class="col-md-8 col-xs-12 vacancy-card__header-group">
+                                    <h2 class="card-title vacancy-card__header">Vrijwillig consulent GGZ en Vriendendienst</h2>
+                                    <h3 class="card-subtitle vacancy-card__subheader">Coördineren & regelen</h3>
+                                </div>
+                            </div>
+                            <div class="card-body vacancy-card__body">
+                                <p class="vacancy-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                    sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis
+                                    malesuada quam.
+                                </p>
+                                <a href="#" class="card-link vacancy-card__link">lees meer ›</a>
+                            </div>
+                            <div class="card-footer vacancy-card__footer">2 weken geleden - Breda, Nederland</div>
+                        </div>
+                    </div>
+                </div>
+                <aside class="col-sm-4 company__sidebar blog__sidebar sidebar">
+                    <div class="row">
+                        <div class="col-sm sidebar__item">
+                            <form class="sidebar__form contact-form">
+                                <h2 class="sidebar__title">Contact Verenigingsnaam</h2>
+                                <div class="form-group">
+                                    <input type="text" class="form-control contact-form__input" placeholder="Voer je naam in *">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control contact-form__input" placeholder="E-mailadres *">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control contact-form__input" placeholder="Telefoonnummer *">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control contact-form__input" id="" cols="30" rows="10">Je bericht</textarea>
+                                </div>
+                                <div class="contact-form__text">Je gaat akkoord met onze
+                                    <span class="contact-form__text_hightlight">Algemene voorwaarden</span>
+                                </div>
+                                <button type="submit" class="btn contact-form__btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+    <section class="featured featured_mb-l">
+        <div class="featured__image-wrapper">
+            <img src="assets/img/b_pattern1.png" class="featured__image">
+        </div>
+        <div class="featured__content-wrapper">
+            <div class="featured__content featured__content_mr">
+                <h1 class="featured__title">Korte titel van een quote oid</h1>
+                <p class="featured__text">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small
+                    river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+        </div>
+    </section>
+    <section class="featured featured_mb-m">
+        <div class="featured__content-wrapper">
+            <div class="featured__content featured__content_ml">
+                <h1 class="featured__title">Korte titel van een quote oid</h1>
+                <p class="featured__text">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small
+                    river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+        </div>
+        <div class="featured__image-wrapper">
+            <img src="assets/img/b_pattern2.png" class="featured__image">
+        </div>
+    </section>
+    <section class="featured featured_mb-l">
+        <div class="featured__image-wrapper">
+            <img src="assets/img/b_background1.png" class="featured__image">
+        </div>
+        <div class="featured__content-wrapper">
+            <div class="featured__content featured__content_mr">
+                <h1 class="featured__title">Korte titel van een quote oid</h1>
+                <p class="featured__text">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small
+                    river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="featured__content-wrapper">
+            <div class="featured__content featured__content_ml">
+                <h1 class="featured__title">Korte titel van een quote oid</h1>
+                <p class="featured__text">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small
+                    river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+        </div>
+        <div class="featured__image-wrapper">
+            <img src="assets/img/b_background1.png" class="featured__image">
+        </div>
+    </section>
+    <!---here-->
+    <section class="post">
+        <div class="post__body">
+            <h1 class="post__header">Kopniveau</h1>
+            <p>Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget
+                risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam.
+                Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+            </p>
+            <p>Cras mattis consectetur purus sit amet fermentum.Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Morbi leo risus, porta ac consectetur
+                ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est
+                at lobortis.</p>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Cras justo odio, dapibus ac facilisis in, egestas
+                eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis
+                lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+            <img src="assets/img/b_bleeding.png" alt="banner" class="bleed__image" />
+            <p>Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget
+                risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam.
+                Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+            </p>
+            <p>Cras mattis consectetur purus sit amet fermentum.Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Morbi leo risus, porta ac consectetur
+                ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est
+                at lobortis.</p>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Cras justo odio, dapibus ac facilisis in, egestas
+                eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis
+                lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+            <img src="assets/img/b_img1.png" alt="an image" class="w-100 post__image" />
+        </div>
+    </section>
+    <section class="related">
+        <div class="container">
+            <h1 class="related__header">Artikelen</h1>
+            <div class="card-deck">
+                <div class="card related__item">
+                    <img class="card-img-top" src="assets/img/b_img2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title related__item-title">Titel artikel</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum tempor
+                            bibendum.
+                        </p>
+                        <a href="#" class="related__item-link">lees meer ›</a>
+                    </div>
+                </div>
+                <div class="card related__item">
+                    <img class="card-img-top" src="assets/img/b_img2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title related__item-title">Titel artikel</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum tempor
+                            bibendum.
+                        </p>
+                        <a href="#" class="related__item-link">lees meer ›</a>
+                    </div>
+                </div>
+                <div class="card related__item">
+                    <img class="card-img-top" src="assets/img/b_img2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title related__item-title">Titel artikel</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum tempor
+                            bibendum.
+                        </p>
+                        <a href="#" class="related__item-link">lees meer ›</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text">
+        <div class="container">
+            <h1 class="text__header">Een opsomming over kolommen</h1>
+            <div class="row">
+                <div class="col-sm-6 text__column">
+                    <ul class="text__list">
+                        <li>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</li>
+                        <li>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</li>
+                        <li>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text__column">
+                    <ul class="text__list">
+                        <li>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</li>
+                        <li>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</li>
+                        <li>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="video__wrapper">
+            <h1 class="video__title">Video titel</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rKXFgWP-2xQ" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="blog-post">
+        <div class="container">
+            <div class="d-flex justify-content-around blog-post__wrapper">
+                <img src="assets/img/b_image3.png" alt="banner" class="blog-post__thumbnail">
+                <div class="d-flex flex-column justify-content-center align-items-start blog-post__content">
+                    <h1 class="blog-post__header">Lorem ipsum dolor sit amet</h1>
+                    <p class="blog-post__excerpt">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
+                        eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                        luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    <a href="#" class="btn btn-danger blog-post__link">bekijk</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-post">
+        <div class="container">
+            <div class="d-flex justify-content-around blog-post__wrapper">
+                <div class="d-flex flex-column justify-content-center align-items-start blog-post__content">
+                    <h1 class="blog-post__header">Lorem ipsum dolor sit amet</h1>
+                    <p class="blog-post__excerpt">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
+                        eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                        luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    <a href="#" class="btn btn-danger blog-post__link">bekijk</a>
+                </div>
+                <img src="assets/img/b_img4.png" alt="banner" class="blog-post__thumbnail">
+            </div>
+        </div>
+    </section>
+    <section class="text">
+        <div class="container">
+            <h1 class="text__header">Tekst over twee kolommen</h1>
+            <div class="row">
+                <div class="col-sm-6 text__column">
+                    <p>Empores voles ad ut experati toribusae del ipidero tem sitia ius ipsamusciis quatur aborehendem. Ita
+                        se cor sumqui ium fuga. Nem im rem. Itate voloriatem quidus rem et harciae eos eum eaque volore,
+                        cus sit quamus pa sedis alit restia nonsenda volestrum esed ent. </p>
+                    <p> Ilicae volorem excestr uptatio resequo beatum aut utas re veribusdanis autae dolore consed que aut faceperro
+                        omnit dolorep editem sandand ernamus quia quam et ad molupta dolut quamusc itioremperum autest liquide
+                        llautem faccuptatus de illabo. Ut ex et, quunt dis imaximi, sin nos sitaest iatios eaquia suntibeatis
+                        antet aut doluptatias dolupta tecepel ilit ipicillantor sunt quis veliquam ad utectatio.</p>
+                </div>
+                <div class="col-sm-6 text__column">
+                    <p>
+                        Sam exces sit voloreces explia qui toreictae porem ressim nusae nonsequi tet quodi velitatatem ulla que is expliquate volorib
+                        erestios resequia niminum vid ulparchit porest, aperem labo. Obisi rati dolorit qui nonse ped eaquid
+                        maio ero berist laboreped eicitatius eumenecto et delitibust dunderum ut reperum num, sit opti ut
+                        rati aut pelesec tatenim nobit, cum ea vendaeces rem imporro omnis autempo rendebit vel idest, nihiciis
+                        ate inimin plabo. Cestium aut que aut ad quaeptae ipsa coreptatur sum ut fuga. Bus estrum aboratiam,
+                        conecea rionese dignam eles ped quatur ataturerum faceseditia volorem porio. Arum conecus qui vel
+                        in nos nulparc hilluptum dolorep eroviti antior aut et as et erem re ipitem dolut abore volorer ehent,
+                        natumque laut eum fugiandis atur a sum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 bg-secondary">
+        <h1 class="mr-5">Het team</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner py-5">
+                <div class="carousel-item active">
+                    <div class="card w-25">
+                        <img class="card-img-top" src="assets/img/b_img5.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Naam Achternaam</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                                tempor bibendum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card w-25">
+                        <img class="card-img-top" src="assets/img/b_img5.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Naam Achternaam</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                                tempor bibendum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card w-25">
+                        <img class="card-img-top" src="assets/img/b_img5.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Naam Achternaam</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                                tempor bibendum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card w-25">
+                        <img class="card-img-top" src="assets/img/b_img5.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Naam Achternaam</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                                tempor bibendum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card w-25">
+                        <img class="card-img-top" src="assets/img/b_img5.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Naam Achternaam</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                                tempor bibendum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="cta">
+        <div class="cta__wrapper">
+            <h1 class="cta__text">Actiematige kop met een link naar bijvoorbeeld het trainingsaanbod</h1>
+            <a class="btn cta__button">bekijk</a>
+        </div>
+    </section>
+    <section class="news-grid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 news-grid__column">
+                    <div class="card news-grid__item">
+                        <img src="assets/img/b_img7.png" alt="thumbnail" class="news-grid__item-thumbnail" />
+                    </div>
+                    <div class="card-deck">
+                        <div class="card news-grid__item">
+                            <img src="assets/img/b_image8.png" alt="thumbnail" class="news-grid__item-thumbnail" />
+                        </div>
+                        <div class="card news-grid__item">
+                            <img src="assets/img/b_image8.png" alt="thumbnail" class="news-grid__item-thumbnail" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 news-grid__column">
+                    <div class="card-deck">
+                        <div class="card news-grid__item">
+                            <img src="assets/img/b_image8.png" alt="thumbnail" class="inews-grid__item-thumbnail" />
+                        </div>
+                        <div class="card news-grid__item">
+                            <div class="card-body">
+                                <p class="card-text news-grid__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card news-grid__item">
+                        <img src="assets/img/b_img7.png" alt="thumbnail" class="news-grid__item-thumbnail" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_top d-flex flex-row">
+            <div class="newsletter">
+                <div class="newsletter__wrapper d-flex flex-column justify-content-center align-items-start">
+                    <h3 class="newsletter__header">Wil je op de hoogte blijven? </h3>
+                    <p class="newsletter__text">Laat dan je e-mailadres achter om de meest recente vacatures, kandidaten en ander nieuws te ontvangen.</p>
+                    <div class="d-flex">
+                        <input name="email" class="form-control newsletter__input" placeholder="ZJe e-mail adres" />
+                        <button class="btn btn-danger newsletter__button">Aanmelden</button>
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="assets/img/side.png" class="img-fluid banner__image" alt="fotter pattern">
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row footer-menu">
+                    <div class="col-md-3">
+                        <div class="mb-5 footer-menu__">
+                            <h5 class="footer-menu__header footer-menu__header_green">Vacaturebank</h5>
+                            <nav class="footer-menu__nav d-flex flex-column">
+                                <a href="#">Curabitur</a>
+                                <a href="#">Malesuada</a>
+                                <a href="#">Ultrices enim</a>
+                                <a href="#">Sodales nunc</a>
+                                <a href="#">Interdum</a>
+                            </nav>
+                        </div>
+                        <div class="mb-5">
+                            <h5 class="footer-menu__header footer-menu__header_blue">Vrijwilligersacademie </h5>
+                            <nav class="footer-menu__nav d-flex flex-column">
+                                <a href="#">Curabitur</a>
+                                <a href="#">Malesuada</a>
+                                <a href="#">Ultrices enim</a>
+                                <a href="#">Sodales nunc</a>
+                                <a href="#">Interdum</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="mb-5">
+                            <h5 class="footer-menu__header footer-menu__header_yellow">Advies</h5>
+                            <nav class="footer-menu__nav  d-flex flex-column">
+                                <a href="#">Curabitur</a>
+                                <a href="#">Malesuada</a>
+                                <a href="#">Ultrices enim</a>
+                                <a href="#">Sodales nunc</a>
+                                <a href="#">Interdum</a>
+                            </nav>
+                        </div>
+                        <div class="mb-5">
+                            <h5 class="footer-menu__header footer-menu__header_purple">Aanmelden</h5>
+                            <nav class="footer-menu__nav d-flex flex-column">
+                                <a href="#">Curabitur</a>
+                                <a href="#">Malesuada</a>
+                                <a href="#">Ultrices enim</a>
+                                <a href="#">Sodales nunc</a>
+                                <a href="#">Interdum</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-menu__icons d-flex flex-column align-items-start">
+                        <img src="assets/img/part2.png" class="footer-menu__icon">
+                        <img src="assets/img/part1.png" class="footer-menu__icon">
+                        <img src="assets/img/part3.png" class="footer-menu__icon">
+                    </div>
+                    <div class="col-md-3 footer-menu__contact">
+                        <div class="footer-menu__contact-wrapper">
+                            <h5 class="footer-menu__contact-name">MOOIWERK</h5>
+                            <p class="footer-menu__contact-postal"> Postadres
+                                <br/>Postbus 5675, 4801 EB Breda</p>
+                            <p class="footer-menu__contact-office"> Bezoekadres
+                                <br> Heerbaan 100, Breda</p>
+                            <p class="footer-menu__direct d-flex flex-column">
+                                <span>076 523 35 55</span>
+                                <span>info@mooiwerkbreda.nl</span>
+                                <span>www.mooiwerkbreda.nl</span>
+                            </p>
+                        </div>
+                        <div class="footer-menu__slogan">MOOIWERK is een onderdeel van
+                            <br />
+                            <span class="footer-menu__slogan_emphasis">Stichting Breda Actief</span>
+                        </div>
+                        <div class="footer-menu__socials">
+                            <h5 class="footer-menu__social-header">Volg ons via</h5>
+                            <nav class="footer-menu__social-links">
+                                <a href="#" class="footer-menu__social-link" alt="Facebook icon">
+                                    <img src="assets/img/facebook.svg" class="footer-menu__social-link-icon">
+                                </a>
+                                <a href="#" class="footer-menu__social-link" alt="Twitter icon">
+                                    <img src="assets/img/twitter.svg" class="footer-menu__social-link-icon">
+                                </a>
+                                <a href="#" class="footer-menu__social-link" alt="Linkedin icon">
+                                    <img src="assets/img/linkedin.svg" class="footer-menu__social-link-icon">
+                                </a>
+                                <a href="#" class="footer-menu__social-link" alt="Youtube icon">
+                                    <img src="assets/img/youtube.svg" class="footer-menu__social-link-icon">
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menu__copyright ">© 2018 Mooi Werk - All rights reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

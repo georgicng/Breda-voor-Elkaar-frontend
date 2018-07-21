@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="mooiwerk">
+    <meta name="keywords" content="mooiwerk">
+    <title>Vacancies - MooiWer</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <header class="header bg-primary">
+        <div class="container d-none d-md-flex justify-content-md-end header__content">
+            <div class="header__search">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Zoeken" class="header__input" />
+            </div>
+            <a href="#" class="header__login">Inloggen</a>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-md navbar-light text-dark bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="assets/img/logo.svg" alt="Mooiwerk">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="vacancies.html">Vacaturebank
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vacancy.html">Vrijwilligersacedemie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Advies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <!--li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__header">Vrijwilliger zijn?</h1>
+            <h3 class="hero__sub-header">Vind je vacature.</h3>
+            <div class="d-flex hero__form">
+                <form class="form-inline">
+                    <label class="sr-only" for="s">Search</label>
+                    <input name="s" placeholder="Zoek op trefwoord" class="hero__search" />
+                    <button type="submit" class="btn hero__btn">search</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="vacancy-list">
+        <div class="container">
+            <div class="row">
+                <aside class="col-md-4 vacancy-list__layered layered">
+                    <form class="layered__form">
+                        <section class="layered__group">
+                            <h2 class="layered__group-header">Datum gepost</h2>
+                            <label class="layered__field-radio-wrapper">
+                                <input type="radio" name="datum-gepost" value="Laatste uur" class="layered__field-radio"> Laatste uur</label>
+
+                            <label class="layered__field-radio-wrapper">
+                                <input type="radio" name="datum" value="Laatste 24 uur" class="layered__field-radio"> Laatste 24 uur</label>
+
+                            <label class="layered__field-radio-wrapper">
+                                <input type="radio" name="datum" value="Laatste 7 dagen" class="layered__field-radio"> Laatste 7 dagen</label>
+
+                            <label class="layered__field-radio-wrapper">
+                                <input type="radio" name="datum" value="Laatste 14 dagen" class="layered__field-radio"> Laatste 14 dagen</label>
+
+                            <label class="layered__field-radio-wrapper">
+                                <input type="radio" name="datum" value="Laatste 30 dagen" class="layered__field-radio"> Laatste 30 dagen</label>
+
+                            <label class="layered__field-radio-wrapper">
+                                <input type="radio" name="datum" value="Allemaal" class="layered__field-radio" checked> Allemaal</label>
+
+                        </section>
+                        <section class="mb-4 layered__group">
+                            <h2 class="layered__group-header">Hoe vaak</h2>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-select">
+                                    Eenmalig</label>
+                                <span class="layered__field-select-value">5</span>
+
+                            </div>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-select">
+                                    Regelmatig</label>
+                                <span class="alayered__field-select-value">5</span>
+                                </label>
+                            </div>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-select">
+                                    Soms</label>
+                                <span class="layered__field-select-value">2</span>
+
+                            </div>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-select">Structureel</label>
+                                <span class="layered__field-select-value">5</span>
+                            </div>
+                        </section>
+                        <section class="mb-4 layered__group">
+                            <h2 class="layered__group-header">Soort vrijwilligers</h2>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-checkbox-wrapper">
+                                    <input type="checkbox" name="soort-vrijwilligers" value="(huis)dieren" class="layered__field-checkbox"> (huis)dieren</label>
+                                <span class="text-right layered__field-checkbox-value">5</span>
+                            </div>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-checkbox-wrapper">
+                                    <input type="checkbox" name="soort-vrijwilligers" value="Activiteitenbegeleiding" class="layered__field-checkbox"> Activiteitenbegeleiding</label>
+                                <span class="text-right layered__field-checkbox-value">5</span>
+                            </div>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-checkbox-wrapper">
+                                    <input type="checkbox" name="soort-vrijwilligers" value="Administratie" class="layered__field-checkbox"> Administratie</label>
+                                <span class="text-right layered__field-checkbox-value">2</span>
+                            </div>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-checkbox-wrapper">
+                                    <input type="checkbox" name="soort-vrijwilligers" value="Bar & kantine" class="layered__field-checkbox"> Bar & kantinespan</label>
+                                <span class="text-right layered__field-checkbox-value">5</span>
+                            </div>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-checkbox-wrapper">
+                                    <input type="checkbox" name="soort-vrijwilligers" value="Bestuur & strategie" class="layered__field-checkbox"> Bestuur & strategie</label>
+                                <span class="text-right layered__field-checkbox-value">5</span>
+                            </div>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-checkbox-wrapper">
+                                    <input type="checkbox" name="soort-vrijwilligers" value="Boodschappen" class="layered__field-checkbox"> Boodschappen</label>
+                                <span cclass="text-right layered__field-checkbox-value">5</span>
+                            </div>
+                            <div class="d-flex justify-content-between layered__field-wrap">
+                                <label class="layered__field-checkbox-wrapper">
+                                    <input type="checkbox" name="soort-vrijwilligers" value="Collecte & fondsenwerving" class="layered__field-checkbox"> Collecte & fondsenwerving</label>
+                                <span class="text-right layered__field-checkbox-value">2</span>
+                            </div>
+                        </section>
+
+                        <a href="#" class="btn layered__btn">lees meer ></a>
+                    </form>
+
+                </aside>
+                <main class="col-md-8 vacancy-list__items">
+                    <div class="card shadow border-light vacancy-list__item  vacancy-card">
+                        <div class="row vacancy-card__header-wrapper">
+                            <div class="col-md-4 col-xs-12 vacancy-card__figure">
+                                <img src="assets/img/logo_v1.png" class="vacancy-card__image">
+                            </div>
+                            <div class="col-md-8 col-xs-12 vacancy-card__header-group">
+                                <h2 class="card-title vacancy-card__header">Vrijwillig consulent GGZ en Vriendendienst</h2>
+                                <h3 class="card-subtitle vacancy-card__subheader">Coördineren & regelen</h3>
+                            </div>
+                        </div>
+                        <div class="card-body vacancy-card__body">
+                            <p class="vacancy-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                quam.
+                            </p>
+                            <a href="#" class="card-link vacancy-card__link">lees meer ›</a>
+                        </div>
+                        <div class="card-footer vacancy-card__footer">2 weken geleden - Breda, Nederland</div>
+                    </div>
+                    <div class="card shadow border-light vacancy-list__item  vacancy-card">
+                        <div class="row vacancy-card__header-wrapper">
+                            <div class="col-md-4 col-xs-12 vacancy-card__figure">
+                                <img src="assets/img/logo_v2.png" class="vacancy-card__image">
+                            </div>
+                            <div class="col-md-8 col-xs-12 vacancy-card__header-group">
+                                <h2 class="card-title vacancy-card__header">Landelijke luisterlijn Breda zoekt chat- en telefoonvrijwilligers</h2>
+                                <h3 class="card-subtitle vacancy-card__subheader">Coördineren & regelen</h3>
+                            </div>
+                        </div>
+                        <div class="card-body vacancy-card__body">
+                            <p class="vacancy-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                quam.
+                            </p>
+                            <a href="#" class="card-link vacancy-card__link">lees meer ›</a>
+                        </div>
+                        <div class="card-footer vacancy-card__footer">2 weken geleden - Breda, Nederland</div>
+                    </div>
+                    <div class="card shadow border-light vacancy-list__item  vacancy-card">
+                            <div class="row vacancy-card__header-wrapper">
+                                <div class="col-md-4 col-xs-12 vacancy-card__figure">
+                                    <img src="assets/img/logo_v1.png" class="vacancy-card__image">
+                                </div>
+                                <div class="col-md-8 col-xs-12 vacancy-card__header-group">
+                                    <h2 class="card-title vacancy-card__header">Vrijwillig consulent GGZ en Vriendendienst</h2>
+                                    <h3 class="card-subtitle vacancy-card__subheader">Coördineren & regelen</h3>
+                                </div>
+                            </div>
+                            <div class="card-body vacancy-card__body">
+                                <p class="vacancy-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                    sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                    quam.
+                                </p>
+                                <a href="#" class="card-link vacancy-card__link">lees meer ›</a>
+                            </div>
+                            <div class="card-footer vacancy-card__footer">2 weken geleden - Breda, Nederland</div>
+                        </div>
+                        <div class="card shadow border-light vacancy-list__item  vacancy-card">
+                            <div class="row vacancy-card__header-wrapper">
+                                <div class="col-md-4 col-xs-12 vacancy-card__figure">
+                                    <img src="assets/img/logo_v2.png" class="vacancy-card__image">
+                                </div>
+                                <div class="col-md-8 col-xs-12 vacancy-card__header-group">
+                                    <h2 class="card-title vacancy-card__header">Landelijke luisterlijn Breda zoekt chat- en telefoonvrijwilligers</h2>
+                                    <h3 class="card-subtitle vacancy-card__subheader">Coördineren & regelen</h3>
+                                </div>
+                            </div>
+                            <div class="card-body vacancy-card__body">
+                                <p class="vacancy-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                    sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                    quam.
+                                </p>
+                                <a href="#" class="card-link vacancy-card__link">lees meer ›</a>
+                            </div>
+                            <div class="card-footer vacancy-card__footer">2 weken geleden - Breda, Nederland</div>
+                        </div>
+                        <div class="card shadow border-light vacancy-list__item  vacancy-card">
+                                <div class="row vacancy-card__header-wrapper">
+                                    <div class="col-md-4 col-xs-12 vacancy-card__figure">
+                                        <img src="assets/img/logo_v1.png" class="vacancy-card__image">
+                                    </div>
+                                    <div class="col-md-8 col-xs-12 vacancy-card__header-group">
+                                        <h2 class="card-title vacancy-card__header">Vrijwillig consulent GGZ en Vriendendienst</h2>
+                                        <h3 class="card-subtitle vacancy-card__subheader">Coördineren & regelen</h3>
+                                    </div>
+                                </div>
+                                <div class="card-body vacancy-card__body">
+                                    <p class="vacancy-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                        sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                        quam.
+                                    </p>
+                                    <a href="#" class="card-link vacancy-card__link">lees meer ›</a>
+                                </div>
+                                <div class="card-footer vacancy-card__footer">2 weken geleden - Breda, Nederland</div>
+                            </div>
+                            <div class="card shadow border-light vacancy-list__item  vacancy-card">
+                                <div class="row vacancy-card__header-wrapper">
+                                    <div class="col-md-4 col-xs-12 vacancy-card__figure">
+                                        <img src="assets/img/logo_v2.png" class="vacancy-card__image">
+                                    </div>
+                                    <div class="col-md-8 col-xs-12 vacancy-card__header-group">
+                                        <h2 class="card-title vacancy-card__header">Landelijke luisterlijn Breda zoekt chat- en telefoonvrijwilligers</h2>
+                                        <h3 class="card-subtitle vacancy-card__subheader">Coördineren & regelen</h3>
+                                    </div>
+                                </div>
+                                <div class="card-body vacancy-card__body">
+                                    <p class="vacancy-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisl mauris, lobortis a maximus
+                                        sed, sollicitudin et est. Quisque et dolor neque. Duis in facilisis ante. Praesent quis malesuada
+                                        quam.
+                                    </p>
+                                    <a href="#" class="card-link vacancy-card__link">lees meer ›</a>
+                                </div>
+                                <div class="card-footer vacancy-card__footer">2 weken geleden - Breda, Nederland</div>
+                            </div>
+                    <nav class="vacancy-list__pagination custom-pagination">
+                        <ul class="pagination pagination-sm custom-pagination__list">
+                            <li class="page-item disabled custom-pagination__item">
+                                <a href="#" class="page-link custom-pagination__link">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a chref="#" class="page-link custom-pagination__link">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link custom-pagination__link">3</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </main>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_top d-flex flex-row">
+            <div class="newsletter">
+                <div class="newsletter__wrapper d-flex flex-column justify-content-center align-items-start">
+                    <h3 class="newsletter__header">Wil je op de hoogte blijven? </h3>
+                    <p class="newsletter__text">Laat dan je e-mailadres achter om de meest recente vacatures, kandidaten en ander nieuws te ontvangen.</p>
+                    <div class="d-flex">
+                        <input name="email" class="form-control newsletter__input" placeholder="ZJe e-mail adres" />
+                        <button class="btn btn-danger newsletter__button">Aanmelden</button>
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="assets/img/side.png" class="img-fluid banner__image" alt="fotter pattern">
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row footer-menu">
+                    <div class="col-md-3">
+                        <div class="mb-5 footer-menu__">
+                            <h5 class="footer-menu__header footer-menu__header_green">Vacaturebank</h5>
+                            <nav class="footer-menu__nav d-flex flex-column">
+                                <a href="#">Curabitur</a>
+                                <a href="#">Malesuada</a>
+                                <a href="#">Ultrices enim</a>
+                                <a href="#">Sodales nunc</a>
+                                <a href="#">Interdum</a>
+                            </nav>
+                        </div>
+                        <div class="mb-5">
+                            <h5 class="footer-menu__header footer-menu__header_blue">Vrijwilligersacademie </h5>
+                            <nav class="footer-menu__nav d-flex flex-column">
+                                <a href="#">Curabitur</a>
+                                <a href="#">Malesuada</a>
+                                <a href="#">Ultrices enim</a>
+                                <a href="#">Sodales nunc</a>
+                                <a href="#">Interdum</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="mb-5">
+                            <h5 class="footer-menu__header footer-menu__header_yellow">Advies</h5>
+                            <nav class="footer-menu__nav  d-flex flex-column">
+                                <a href="#">Curabitur</a>
+                                <a href="#">Malesuada</a>
+                                <a href="#">Ultrices enim</a>
+                                <a href="#">Sodales nunc</a>
+                                <a href="#">Interdum</a>
+                            </nav>
+                        </div>
+                        <div class="mb-5">
+                            <h5 class="footer-menu__header footer-menu__header_purple">Aanmelden</h5>
+                            <nav class="footer-menu__nav d-flex flex-column">
+                                <a href="#">Curabitur</a>
+                                <a href="#">Malesuada</a>
+                                <a href="#">Ultrices enim</a>
+                                <a href="#">Sodales nunc</a>
+                                <a href="#">Interdum</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-menu__icons d-flex flex-column align-items-start">
+                        <img src="assets/img/part2.png" class="footer-menu__icon">
+                        <img src="assets/img/part1.png" class="footer-menu__icon">
+                        <img src="assets/img/part3.png" class="footer-menu__icon">
+                    </div>
+                    <div class="col-md-3 footer-menu__contact">
+                        <div class="footer-menu__contact-wrapper">
+                            <h5 class="footer-menu__contact-name">MOOIWERK</h5>
+                            <p class="footer-menu__contact-postal"> Postadres
+                                <br/>Postbus 5675, 4801 EB Breda</p>
+                            <p class="footer-menu__contact-office"> Bezoekadres
+                                <br> Heerbaan 100, Breda</p>
+                            <p class="footer-menu__direct d-flex flex-column">
+                                <span>076 523 35 55</span>
+                                <span>info@mooiwerkbreda.nl</span>
+                                <span>www.mooiwerkbreda.nl</span>
+                            </p>
+                        </div>
+                        <div class="footer-menu__slogan">MOOIWERK is een onderdeel van
+                            <br />
+                            <span class="footer-menu__slogan_emphasis">Stichting Breda Actief</span>
+                        </div>
+                        <div class="footer-menu__socials">
+                            <h5 class="footer-menu__social-header">Volg ons via</h5>
+                            <nav class="footer-menu__social-links">
+                                <a href="#" class="footer-menu__social-link" alt="Facebook icon">
+                                    <img src="assets/img/facebook.svg" class="footer-menu__social-link-icon">
+                                </a>
+                                <a href="#" class="footer-menu__social-link" alt="Twitter icon">
+                                    <img src="assets/img/twitter.svg" class="footer-menu__social-link-icon">
+                                </a>
+                                <a href="#" class="footer-menu__social-link" alt="Linkedin icon">
+                                    <img src="assets/img/linkedin.svg" class="footer-menu__social-link-icon">
+                                </a>
+                                <a href="#" class="footer-menu__social-link" alt="Youtube icon">
+                                    <img src="assets/img/youtube.svg" class="footer-menu__social-link-icon">
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menu__copyright ">© 2018 Mooi Werk - All rights reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
