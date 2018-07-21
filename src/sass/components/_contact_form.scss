@@ -1,0 +1,10 @@
+.contact-form__text {
+    line-height: calculateRem(19px);
+    font-size: calculateRem(13px);
+    color: $gray;
+    margin-bottom: calculateRem(14px);
+}
+
+.contact-form__text_hightlight {
+    color: $blue
+}

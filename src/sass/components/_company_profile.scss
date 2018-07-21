@@ -1,0 +1,52 @@
+.company {
+    padding-top: calculateRem(62px);
+    padding-bottom: calculateRem(103px);
+    background-image: url('../img/company-background.png');
+    background-repeat: no-repeat;
+    background-position: bottom 13rem right 0;
+}
+
+.company__name{
+    margin-bottom: calculateRem(33px);
+}
+
+.company__profile {
+    line-height: calculateRem(25px);
+    font-size: calculateRem(14px);
+    font-family: $headings-font-family;
+    margin-bottom: calculateRem(39px);
+}
+
+.company__logo-wrapper{
+    width: calculateRem(144px);
+    margin-right: calculateRem(32px);
+}
+
+.company__social-link {
+    height: calculateRem(22px);
+}
+.company__social-link-icon {
+    min-width: calculateRem(10px);
+}
+
+.company__bio {
+    line-height: calculateRem(24px);
+    font-size: calculateRem(16px);
+    margin-bottom: calculateRem(32px);
+}
+
+.company__categories {
+    margin: 0 calculateRem(-24px) calculateRem(61px) calculateRem(-24px); 
+
+}
+
+.company__category {
+    margin-right: calculateRem(10px);
+ }
+
+.company__vacancies-header{
+    line-height: calculateRem(29px);
+    font-size: calculateRem(22px);
+    font-family: $headings-font-family;
+    margin-bottom: calculateRem(30px); 
+}

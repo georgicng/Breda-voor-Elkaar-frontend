@@ -5,16 +5,18 @@ input[type='checkbox']:checked {
 
 input[type='text'],
 input[type='email'],
-input[type='tel'] {
+input[type='tel'],
+textarea {
     color: $gray;
     background: $white;
     line-height: calculateRem(21px);
     font-size: calculateRem(16px);
+    border: calculateRem(2px) solid $black !important;
     width: 100%;
     margin-bottom: calculateRem(12px);
 }
 
-input[type='submit'] {
+input[type='submit'], button[type='submit'] {
     color: $white;
     background: $red;
     text-align: center;

@@ -1,0 +1,105 @@
+.cv {
+    padding-top: calculateRem(63px);
+    line-height: calculateRem(24px);
+    font-size: calculateRem(16px);
+    background-image: url('../img/vacancy-detail-background.png');
+    background-repeat: no-repeat;
+    background-position: top calculateRem(675px) right 0;
+}
+
+.cv__header {
+    margin-bottom: calculateRem(34px);
+}
+
+.cv__name {
+    line-height: calculateRem(59px);
+    font-size: calculateRem(48px);
+    font-weight: 800;
+    max-width: calculateRem(832px);
+    height: calculateRem(118px);
+    margin-bottom: calculateRem(26px); //0.8%;
+}
+
+.cv__detail {
+    line-height: calculateRem(25px);
+    font-size: calculateRem(14px);
+    max-width: calculateRem(499px);
+    margin-bottom: 0.1%
+}
+
+.cv__social-bar {
+    border-top: calculateRem(2px) solid $black;
+    height: calculateRem(37px);
+    padding: 0.3% 0 0 0;
+}
+
+.cv__link {
+    line-height: calculateRem(21px);
+    font-size: calculateRem(16px);
+    font-weight: 800;
+    margin-right: calculateRem(12px);
+    min-width: calculateRem(163px);
+    font-family: $headings-font-family;
+}
+
+.cv__social-text {
+    line-height: calculateRem(24px);
+    margin-right: calculateRem(26px);
+}
+
+.cv__social-link {
+    margin-right: calculateRem(20px);
+}
+
+.cv__social-link_last {
+    margin-right: 0;
+}
+
+.cv__content {
+    padding-top: calculateRem(69px);
+    padding-bottom: calculateRem(80px);
+}
+
+.cv__title {
+    line-height: calculateRem(29px);
+    font-size: calculateRem(22px);
+}
+
+.cv__title {
+    margin-bottom: calculateRem(10px);
+}
+
+.cv__blockquote {
+    line-height: calculateRem(42px);
+    font-size: calculateRem(32px);
+    color: $purple;
+    max-width: calculateRem(500px);
+}
+
+.cv__descriptions, .cv__requirements, .cv__duties{
+    margin-bottom: calculateRem(40px);
+}
+
+.cv__text{
+    margin-bottom: calculateRem(20px);
+}
+
+.cv__list {
+    display: block;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.cv__list-item {
+    display: list-item;
+}
+
+.cv__extra-list-item {
+    margin-bottom: calculateRem(20px);
+}
+
+.cv__extra-icon {
+    margin-right: 6.3%;
+    min-width: calculateRem(28.75px);
+}
+

@@ -1,0 +1,51 @@
+.vacancy-card {
+    padding: calculateRem(32px) calculateRem(30px) calculateRem(19px) calculateRem(30px);
+    margin-bottom: calculateRem(32px);
+    line-height: calculateRem(24px);
+    font-size: calculateRem(16px);
+    width: calculateRem(672px);
+}
+
+.vacancy-card__header-wrapper {
+    margin-bottom: calculateRem(15px);
+}
+
+.vacancy-card__header {
+    line-height: calculateRem(22px);
+    font-size: calculateRem(19px);
+    height: calculateRem(58px);
+}
+
+.vacancy-card__subheader {
+    line-height: calculateRem(25px);
+    font-size: calculateRem(14px);
+}
+
+.vacancy-card__body {
+    padding: 0;
+    margin-bottom: calculateRem(6px);
+}
+
+.vacancy-card__text{
+ margin: 0;
+}
+
+.vacancy-card__link {
+    line-height: calculateRem(26px);
+    font-size: calculateRem(16px);
+    font-family: $headings-font-family;
+    @include media-breakpoint-up(md) {
+        position: absolute;
+        bottom: 55px;
+        right: 170px;
+    }
+}
+
+.vacancy-card__footer {
+    padding: 0;
+    background-color: $white;
+    border-top: 0;
+    line-height: calculateRem(29px);
+    font-size: calculateRem(14px);
+    font-family: $headings-font-family;
+}

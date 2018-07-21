@@ -1,0 +1,16 @@
+.vacancy-list {
+    padding-top: calculateRem(100px);
+    padding-bottom: calculateRem(83px);
+    background-image: url('../img/vacancy-background.png');
+    background-repeat: no-repeat;
+    background-position: bottom 13rem left 0;
+}
+
+.vacancy-list__layered {
+    line-height: calculateRem(20px); //1.6875rem;
+    font-size: calculateRem(15px); //1.25rem;
+}
+
+.vacancy-list__pagination{
+    margin-top: calculateRem(63px);
+}
