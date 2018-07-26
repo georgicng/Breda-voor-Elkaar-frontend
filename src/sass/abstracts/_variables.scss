@@ -37,25 +37,26 @@ $custom-container: 0 10.6875rem;
 // Grid settings
 
 $grid-columns-amount: 12;
-$grid-gutter-width: 3rem;
-$grid-row-gap-height: 2rem;
+//$grid-gutter-width: 3rem;
+//$grid-row-gap-height: 2rem;
 
-// Responsive breakpoints, based on minimum value
-$breakpoint-xs: 0;
-$breakpoint-sm: 50rem;
-$breakpoint-md: 80rem;
-$breakpoint-lg: 100rem;
-$breakpoint-xl: 120rem;
+/*$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1024px
+);*/
 
-// Responsive container max-widths
-$container-max-width-xs: 100%;
-$container-max-width-sm: 50rem;
-$container-max-width-md: 55rem;
-$container-max-width-lg: 60rem;
-$container-max-width-xl: 72rem;
-//72.295rem
+$container-max-widths: (
+  sm: 33.75rem,
+  md: 45rem,
+  lg: 60rem,
+  xl: 64rem
+);
 
 //border
 $border-top: 1.125rem solid $black;
 $enable-rounded: false;
 $card-deck-margin:   1rem;
+
+$fa-font-path: "../fontawesome";

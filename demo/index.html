@@ -16,7 +16,6 @@
     <header class="header bg-primary">
         <div class="container d-none d-md-flex justify-content-md-end header__content">
             <div class="header__search">
-                <i class="fa fa-search"></i>
                 <input type="text" placeholder="Zoeken" class="header__input" />
             </div>
             <a href="#" class="header__login">Inloggen</a>
@@ -27,12 +26,11 @@
             <a class="navbar-brand" href="/">
                 <img src="assets/img/logo.svg" alt="Mooiwerk">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse">
+            <div id="main-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="vacancies.html">Vacaturebank
@@ -65,11 +63,11 @@
             <h1 class="hero__header">Vrijwilliger zijn?</h1>
             <h3 class="hero__sub-header">Vind je vacature.</h3>
             <div class="d-flex hero__form">
-                    <form class="form-inline">
-                            <label class="sr-only" for="s">Search</label>
-                <input name="s" placeholder="Zoek op trefwoord" class="hero__search" />
-                <button type="submit" class="btn hero__btn">search</button>
-            </form>
+                <form class="form-inline">
+                    <label class="sr-only" for="s">Search</label>
+                    <input name="s" placeholder="Zoek op trefwoord" class="hero__search" />
+                    <button type="submit" class="btn hero__btn">search</button>
+                </form>
             </div>
         </div>
     </section>
@@ -83,6 +81,9 @@
                         <a href="#">lees meer ›</a>
                     </div>
                 </div>
+                <div class="w-100 d-sm-none my-3">
+                    <!-- wrap every 1 on xs-->
+                </div>
                 <div class="card top-news__card">
                     <div class="card-body">
                         <h3 class="card-title">CMeer weten over vrijwilligerswerk?</h3>
@@ -90,12 +91,21 @@
                         <a href="#">lees meer ›</a>
                     </div>
                 </div>
+                <div class="w-100 d-sm-none my-3">
+                    <!-- wrap every 1 on xs-->
+                </div>
+                <div class="w-100 d-none d-sm-block d-lg-none my-3">
+                    <!-- wrap every 2 on sm-->
+                </div>
                 <div class="card top-news__card">
                     <div class="card-body">
                         <h3 class="card-title">CVrijwilligers in uw organisatie?</h3>
                         <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
                         <a href="#">lees meer ›</a>
                     </div>
+                </div>
+                <div class="w-100 d-sm-none my-3">
+                    <!-- wrap every 1 on xs-->
                 </div>
                 <div class="card top-news__card">
                     <div class="card-body">
@@ -124,6 +134,9 @@
                         </li>
                     </ul>
                 </div>
+                <div class="w-100 d-md-none my-3">
+                    <!-- wrap every 1 on xs-->
+                </div>
                 <div class="col-md-4">
                     <ul class="list-group list-group-flush news-list__item">
                         <li class="list-group-item">
@@ -136,6 +149,9 @@
                             <a href="#" class="news-list__link">Link voorbeeld</a>
                         </li>
                     </ul>
+                </div>
+                <div class="w-100 d-md-none my-3">
+                    <!-- wrap every 1 on xs-->
                 </div>
                 <div class="col-md-4">
                     <ul class="list-group list-group-flush news-list__item">
@@ -157,7 +173,7 @@
         <div class="container">
             <h1 class="vacancy__title">Cursussen</h1>
             <div class="row">
-                <sidebar class="col-md-4 vacancy-sidebar ">
+                <sidebar class="col-lg-4 vacancy-sidebar ">
                     <div class="bg-danger text-light p-4">
                         <h3 class="vacancy-sidebar___header">Intro over cursussen lorep ipsum Breda cras sectum</h3>
                         <div class="vacancy-sidebar___text">
@@ -172,7 +188,10 @@
                         <a href="#" class="btn btn-light vacancy-sidebar___button">alle cursussen ›</a>
                     </div>
                 </sidebar>
-                <div class="col-md-8 vacancy__lists">
+                <div class="w-100 d-lg-none my-3">
+                    <!-- wrap every 1 on xs-->
+                </div>
+                <div class="col-lg-8 vacancy__lists">
                     <div class="vacancy__item vacancy-tab">
                         <div class="vacancy-tab__top p-2 ">28 mei</div>
                         <div class="vacancy-tab__content p-4">
@@ -214,7 +233,7 @@
         <div class="container">
             <h1 class="newsdeck__title">Nieuws</h1>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="card-deck newsdeck__item_margin-bottom">
                         <div class="card newsdeck__item newsdeck__item_small">
                             <div class="card-block">
@@ -222,6 +241,9 @@
                                 <p class="card-text">Phasellus at arcu eleifend, commodo arcu id, mollis risus.</p>
                                 <a href="#">lees meer ›</a>
                             </div>
+                        </div>
+                        <div class="w-100 d-sm-none my-3">
+                            <!-- wrap every 1 on xs-->
                         </div>
                         <div class="card border-top newsdeck__item newsdeck__item_small">
                             <div class="card-block newsdeck__item_align">
@@ -243,44 +265,50 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                        <div class="card newsdeck__item newsdeck__item_big">
-                            <div class="card-block">
-                                <img class="card-img mw-100" src="assets/img/home_overlay.png" alt="Card image" />
-                                <div class="card-img-overlay newsdeck__caption d-flex flex-column justify-content-end text-white">
-                                    <h2 class="card-title">“Elk jaar opnieuw ontmoet ik nieuwe mooie mensen”</h2>
-                                    <p class="card-text">Interview Emmy Rau "Elk jaar opnieuw ontmoet ik nieuwe mooie mensen, daar kijk ik nu
-                                        al naar uit." Emmy Rau is 47 jaar, moeder van …</p>
-                                    <a href="#" class="text-white">lees meer ›</a>
-                                </div>
+                <div class="w-100 d-lg-none my-3">
+                    <!-- wrap every 1 on xs-->
+                </div>
+                <div class="col-lg-6">
+                    <div class="card newsdeck__item newsdeck__item_big">
+                        <div class="card-block">
+                            <img class="card-img mw-100" src="assets/img/home_overlay.png" alt="Card image" />
+                            <div class="card-img-overlay newsdeck__caption d-flex flex-column justify-content-end text-white">
+                                <h2 class="card-title">“Elk jaar opnieuw ontmoet ik nieuwe mooie mensen”</h2>
+                                <p class="card-text">Interview Emmy Rau "Elk jaar opnieuw ontmoet ik nieuwe mooie mensen, daar kijk ik nu al naar
+                                    uit." Emmy Rau is 47 jaar, moeder van …</p>
+                                <a href="#" class="text-white">lees meer ›</a>
                             </div>
                         </div>
-                        <div class="card-deck newsdeck__item_margin-top">
-                            <div class="card newsdeck__item newsdeck__item_small">
-                                <div class="card-block newsdeck__item_align">
-                                    <h3 class="card-title">Nulla et neque sit amet libero auctorisp</h3>
-                                    <p class="card-text"></p>
-                                    <a href="#">lees meer ›</a>
-                                </div>
-                            </div>
-                            <div class="card newsdeck__item newsdeck__item_small">
-                                <div class="card-block newsdeck__item_align">
-                                    <h3 class="card-title">Benieuwd wat er nog meer om Mooi Werk gebeurd?</h3>
-                                    <p class="card-text"></p>
-                                    <a href="#">lees meer ›</a>
-                                </div>
+                    </div>
+                    <div class="card-deck newsdeck__item_margin-top">
+                        <div class="card newsdeck__item newsdeck__item_small">
+                            <div class="card-block newsdeck__item_align">
+                                <h3 class="card-title">Nulla et neque sit amet libero auctorisp</h3>
+                                <p class="card-text"></p>
+                                <a href="#">lees meer ›</a>
                             </div>
                         </div>
+                        <div class="w-100 d-sm-none my-3">
+                            <!-- wrap every 1 on xs-->
+                        </div>
+                        <div class="card newsdeck__item newsdeck__item_small">
+                            <div class="card-block newsdeck__item_align">
+                                <h3 class="card-title">Benieuwd wat er nog meer om Mooi Werk gebeurd?</h3>
+                                <p class="card-text"></p>
+                                <a href="#">lees meer ›</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
     </section>
     <footer class="footer">
-        <div class="footer_top d-flex flex-row">
+        <div class="footer_top">
             <div class="newsletter">
-                <div class="newsletter__wrapper d-flex flex-column justify-content-center align-items-start">
+                <div class="newsletter__wrapper d-md-flex flex-md-column justify-content-md-center align-items-md-start">
                     <h3 class="newsletter__header">Wil je op de hoogte blijven? </h3>
                     <p class="newsletter__text">Laat dan je e-mailadres achter om de meest recente vacatures, kandidaten en ander nieuws te ontvangen.</p>
-                    <div class="d-flex">
+                    <div class="d-md-flex">
                         <input name="email" class="form-control newsletter__input" placeholder="ZJe e-mail adres" />
                         <button class="btn btn-danger newsletter__button">Aanmelden</button>
                     </div>
@@ -293,7 +321,7 @@
         <div class="footer_bottom">
             <div class="container">
                 <div class="row footer-menu">
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <div class="mb-5 footer-menu__">
                             <h5 class="footer-menu__header footer-menu__header_green">Vacaturebank</h5>
                             <nav class="footer-menu__nav d-flex flex-column">
@@ -315,7 +343,7 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <div class="mb-5">
                             <h5 class="footer-menu__header footer-menu__header_yellow">Advies</h5>
                             <nav class="footer-menu__nav  d-flex flex-column">
@@ -337,12 +365,12 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="col-md-3 footer-menu__icons d-flex flex-column align-items-start">
+                    <div class="col-sm-6 col-md-3 footer-menu__icons d-flex flex-column align-items-start">
                         <img src="assets/img/part2.png" class="footer-menu__icon">
-                        <img src="assets/img/part1.png" class="footer-menu__icon">                        
+                        <img src="assets/img/part1.png" class="footer-menu__icon">
                         <img src="assets/img/part3.png" class="footer-menu__icon">
                     </div>
-                    <div class="col-md-3 footer-menu__contact">
+                    <div class="col-sm-6 col-md-3 footer-menu__contact">
                         <div class="footer-menu__contact-wrapper">
                             <h5 class="footer-menu__contact-name">MOOIWERK</h5>
                             <p class="footer-menu__contact-postal"> Postadres
@@ -378,9 +406,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-menu__copyright ">© 2018 Mooi Werk - All rights reserved
-                </div>
             </div>
+        </div>
+        <div class="footer-menu__copyright ">© 2018 Mooi Werk - All rights reserved
         </div>
     </footer>
 

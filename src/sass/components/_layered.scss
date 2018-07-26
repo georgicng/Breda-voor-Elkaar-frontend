@@ -1,38 +1,38 @@
 .layered__group-header {
-    line-height: calculateRem(29px);
-    font-size: calculateRem(22px);
-    margin-bottom: calculateRem(10px);
+    line-height: calculaterem(29px);
+    font-size: calculaterem(22px);
+    margin-bottom: calculaterem(10px);
 }
 
 .layered__group {
     display: flex;
     flex-direction: column;
-    margin-bottom: calculateRem(49px);
+    margin-bottom: calculaterem(49px);
 }
 
 .layered__field-radio-wrapper {
-    margin-bottom: calculateRem(10px);
+    margin-bottom: calculaterem(10px);
 }
 
 .layered__field-radio {
-    width: calculateRem(16px); //height: calculateRem(16px);
+    width: calculaterem(16px); //height: calculaterem(16px);
 }
 
 .layered__field-wrap {
-    width: calculateRem(259px);
-    height: calculateRem(19px);
-    margin-bottom: calculateRem(10px);
+    width: calculaterem(259px);
+    height: calculaterem(19px);
+    margin-bottom: calculaterem(10px);
 }
 
-.layered__field-checkbox-wrapper {}
+//.layered__field-checkbox-wrapper {}
 
 .layered__field-checkbox {
-    width: calculateRem(16px); //height: calculateRem(16px);
+    width: calculaterem(16px); //height: calculaterem(16px);
 }
 
 .layered__btn {
     color: $blue;
     font-weight: 800;
-    line-height: calculateRem(29px); //1.6875rem;
-    font-size: calculateRem(16px); //1.25rem;
+    line-height: calculaterem(29px); //1.6875rem;
+    font-size: calculaterem(16px); //1.25rem;
 }

@@ -1,121 +1,172 @@
-.footer {}
-
-.newsletter {
-    background: $black;
-    color: $white;
-    padding-top: calculateRem(53px);
-    padding-left: calculateRem(171px);
-    width: 50%;
+//.footer {}
+.footer_top {
+  display: flex;
+  flex-direction: column;
 }
 
-.newsletter__wrapper {}
+@include media-breakpoint-up(md) {
+  .footer_top {
+    flex-direction: row;
+  }
+}
 
+.newsletter {
+  background: $black;
+  padding-top: calculaterem(30px);
+  padding-right: calculaterem(10px);
+  padding-left: calculaterem(16px);
+  padding-bottom: calculaterem(30px);
+  color: $white;
+  width: 100%;
+}
+
+@include media-breakpoint-up(md) {
+  .newsletter {
+    padding-top: calculaterem(53px);
+    padding-left: calculaterem(171px);
+    width: 50%;
+  }
+}
+
+//.newsletter__wrapper {}
 .newsletter__header {
-    width: calculateRem(352px);
-    height: calculateRem(58px);
-    line-height: calculateRem(29px);
-    font-size: calculateRem(22px);
-    font-weight: 800;
+  line-height: calculaterem(29px);
+  font-size: calculaterem(22px);
+  font-weight: 800;
+  margin-bottom: calculaterem(27px);
+}
+
+@include media-breakpoint-up(md) {
+  .newsletter__header {
+    width: calculaterem(352px);
+    height: calculaterem(58px);
+  }
 }
 
 .newsletter__text {
-    width: calculateRem(336px);
-    height: calculateRem(72px);
-    margin-bottom: calculateRem(49px);
-    line-height: calculateRem(24px);
-    font-size: calculateRem(16px);
+  line-height: calculaterem(24px);
+  font-size: calculaterem(16px);
+  margin-bottom: calculaterem(28px);
+}
+
+@include media-breakpoint-up(md) {
+  .newsletter__text {
+    width: calculaterem(336px);
+    height: calculaterem(72px);
+    margin-bottom: calculaterem(49px);
+  }
 }
 
 .newsletter__input {
-    width: calculateRem(307px);
-    height: calculateRem(57px);
+  width: 100%;
+  height: calculaterem(57px);
+  margin-bottom: calculaterem(10px);
+}
+
+@include media-breakpoint-up(md) {
+  .newsletter__input {
+    width: calculaterem(307px);
+    margin-bottom: 0;
+  }
 }
 
 .newsletter__button {
-    width: calculateRem(140px);
-    height: calculateRem(57px);
-    color: $white;
-    background: $red;
+  width: 100%;
+  height: calculaterem(57px);
+  color: $white;
+  background: $red;
+}
+
+@include media-breakpoint-up(md) {
+  .newsletter__button {
+    width: calculaterem(140px);
+  }
 }
 
 .banner {
+  width: 100%;
+}
+
+@include media-breakpoint-up(md) {
+  .banner {
     width: 50%;
+  }
 }
 
 .banner__image {
-    width: 100%;
+  width: 100%;
 }
 
 .footer_bottom {
-    padding-top: calculateRem(80px);
-    font-size: calculateRem(15px);
-    line-height: calculateRem(24px);
+  padding-top: calculaterem(80px);
+  font-size: calculaterem(15px);
+  line-height: calculaterem(24px);
 }
 
 .footer-menu__header {
-    font-family: $headings-font-family;
+  font-family: $headings-font-family;
 }
 
 .footer-menu__header_green {
-    color: $green;
+  color: $green;
 }
 
 .footer-menu__header_purple {
-    color: $purple;
+  color: $purple;
 }
 
 .footer-menu__header_yellow {
-    color: $yellow;
+  color: $yellow;
 }
 
 .footer-menu__header_blue {
-    color: $blue;
+  color: $blue;
 }
 
 .footer-menu__nav {
-    line-height: calculateRem(20px);
-    margin-bottom: calculateRem(78px);
+  line-height: calculaterem(20px);
+  margin-bottom: calculaterem(78px);
 }
 
 .footer-menu__icon {
-    margin-bottom: calculateRem(57px);
+  margin-bottom: calculaterem(57px);
 }
 
 .footer-menu__contact {
-    line-height: calculateRem(20px);
-    height: calculateRem(261px);
+  line-height: calculaterem(20px);
+  height: calculaterem(261px);
 }
 
 .footer-menu__contact-wrapper {
-    height: calculateRem(261px);
-} 
-
-.footer-menu__contact-name {
-    font-family: $headings-font-family;
-    font-weight: 800;
+  height: calculaterem(261px);
 }
 
-.footer-menu__slogan{
-    color: $gray;
-    margin-bottom: calculateRem(15px);
+.footer-menu__contact-name {
+  font-family: $headings-font-family;
+  font-weight: 800;
+}
+
+.footer-menu__slogan {
+  color: $gray;
+  margin-bottom: calculaterem(15px);
 }
 
 .footer-menu__slogan_emphasis {
-    color: $blue;
+  color: $blue;
 }
 
 .footer-menu__social-header {
-    font-family: $headings-font-family;
-    font-weight: 800;
+  font-family: $headings-font-family;
+  font-weight: 800;
 }
 
 .footer-menu__social-link {
-    margin-right: calculateRem(21px);
+  margin-right: calculaterem(21px);
 }
 
 .footer-menu__copyright {
-    text-align: center;
-    padding-top: calculateRem(44px);
-    padding-bottom: calculateRem(32px);
-    color: $gray;
+  text-align: center;
+  padding-top: calculaterem(44px);
+  padding-bottom: calculaterem(32px);
+  color: $gray;
 }

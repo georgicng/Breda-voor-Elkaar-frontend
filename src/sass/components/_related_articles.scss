@@ -1,14 +1,14 @@
 .related {
-    padding-top: calculateRem(86px);
-    padding-bottom: calculateRem(100px);
+    padding-top: calculaterem(86px);
+    padding-bottom: calculaterem(100px);
     background: $off-white;
 }
 
 .related__header {
-    margin-bottom: calculateRem(53px);
+    margin-bottom: calculaterem(53px);
 }
 
 .related__item {
-    border-top: calculateRem(18px) solid $black;
-    width: calculateRem(320px);
+    border-top: calculaterem(18px) solid $black;
+    width: calculaterem(320px);
 }

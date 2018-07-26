@@ -8,7 +8,7 @@
     <meta name="description" content="mooiwerk">
     <meta name="keywords" content="mooiwerk">
     <title>Blog - MooiWer</title>
-    <link rel="stylesheet" href="scss/style.scss">
+    <link rel="stylesheet" href="css/main.scss">
 </head>
 
 <body>
@@ -16,7 +16,6 @@
     <header class="header bg-primary">
         <div class="container d-none d-md-flex justify-content-md-end header__content">
             <div class="header__search">
-                <i class="fa fa-search"></i>
                 <input type="text" placeholder="Zoeken" class="header__input" />
             </div>
             <a href="#" class="header__login">Inloggen</a>
@@ -385,77 +384,94 @@
             </div>
         </div>
     </section>
-    <section class="mt-5 bg-secondary">
-        <h1 class="mr-5">Het team</h1>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner py-5">
-                <div class="carousel-item active">
-                    <div class="card w-25">
-                        <img class="card-img-top" src="img/b_img5.png" alt="Card image cap">
+    <section class="mt-5 bg-secondary blog-slider container-fluid">
+        <h1 class="blog-slider__header">Het team</h1>
+        <div id="carouselExample" class="carousel slide blog-carousel__slider" data-ride="carousel" data-interval="9000">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-md-3 active">
+                    <div class="card mx-auto d-block blog-carousel__slide">
+                        <img class="card-img-top blog-carousel__slide-image" src="img/b_img5.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Naam Achternaam</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                            <h3 class="card-title blog-carousel__slide-header">Naam Achternaam</h3>
+                            <p class="card-text blog-carousel__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
                                 tempor bibendum.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card w-25">
-                        <img class="card-img-top" src="img/b_img5.png" alt="Card image cap">
+                <div class="carousel-item col-md-3">
+                    <div class="card mx-auto d-block blog-carousel__slide">
+                        <img class="card-img-top blog-carousel__slide-image" src="img/b_img5.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Naam Achternaam</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                            <h3 class="card-title blog-carousel__slide-header">Naam Achternaam</h3>
+                            <p class="card-text blog-carousel__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
                                 tempor bibendum.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card w-25">
-                        <img class="card-img-top" src="img/b_img5.png" alt="Card image cap">
+                <div class="carousel-item col-md-3">
+                    <div class="card mx-auto d-block blog-carousel__slide">
+                        <img class="card-img-top blog-carousel__slide-image" src="img/b_img5.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Naam Achternaam</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                            <h3 class="card-title blog-carousel__slide-header">Naam Achternaam</h3>
+                            <p class="card-text blog-carousel__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
                                 tempor bibendum.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card w-25">
-                        <img class="card-img-top" src="img/b_img5.png" alt="Card image cap">
+                <div class="carousel-item col-md-3">
+                    <div class="card mx-auto d-block blog-carousel__slide">
+                        <img class="card-img-top blog-carousel__slide-image" src="img/b_img5.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Naam Achternaam</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                            <h3 class="card-title blog-carousel__slide-header">Naam Achternaam</h3>
+                            <p class="card-text blog-carousel__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
                                 tempor bibendum.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card w-25">
-                        <img class="card-img-top" src="img/b_img5.png" alt="Card image cap">
+                <div class="carousel-item col-md-3">
+                    <div class="card mx-auto d-block blog-carousel__slide">
+                        <img class="card-img-top blog-carousel__slide-image" src="img/b_img5.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Naam Achternaam</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                            <h3 class="card-title blog-carousel__slide-header">Naam Achternaam</h3>
+                            <p class="card-text blog-carousel__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                                tempor bibendum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3">
+                    <div class="card mx-auto d-block blog-carousel__slide">
+                        <img class="card-img-top blog-carousel__slide-image" src="img/b_img5.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title blog-carousel__slide-header">Naam Achternaam</h3>
+                            <p class="card-text blog-carousel__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
+                                tempor bibendum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item col-md-3">
+                    <div class="card mx-auto d-block blog-carousel__slide">
+                        <img class="card-img-top blog-carousel__slide-image" src="img/b_img5.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title blog-carousel__slide-header">Naam Achternaam</h3>
+                            <p class="card-text blog-carousel__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean luctus tellus condimentum ipsum
                                 tempor bibendum.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <i class="fa fa-chevron-left fa-lg blog-carousel__slider-icon"></i>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                <i class="fa fa-chevron-right fa-lg blog-carousel__slider-icon"></i>
                 <span class="sr-only">Next</span>
             </a>
         </div>
@@ -619,7 +635,7 @@
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script-->
-    <script src="ts/main.js"></script>
+    <script src="ts/main.ts"></script>
 </body>
 
 </html>

@@ -1,10 +1,10 @@
 .bleed__image {
-    //max-height: calculateRem(800px);
-    //width: 100%;
-    position: relative;
     width: 100vw;
-    height: auto;
-    left: calc((-100vw + 33.3em) / 2);
-    margin-bottom: calculateRem(86px);
-   margin-top: calculateRem(100px);
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+    margin-bottom: calculaterem(86px);
+   margin-top: calculaterem(100px);
 }
